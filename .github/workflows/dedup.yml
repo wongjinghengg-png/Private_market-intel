@@ -1,0 +1,49 @@
+name: Dedup Archive
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Dry run (preview only) or Apply (rewrite archive)'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options:
+          - dry-run
+          - apply
+
+permissions:
+  contents: write
+
+jobs:
+  dedup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Deduplicator
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "dry-run" ]; then
+            python main.py --dedup --dry-run
+          else
+            python main.py --dedup
+          fi
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit cleaned archive
+        if: ${{ github.event.inputs.mode == 'apply' }}
+        run: |
+          git config user.name "Market Intel Bot"
+          git config user.email "bot@market-intel"
+          git add data/archive.xlsx
+          git diff --staged --quiet || git commit -m "Dedup archive"
+          git push

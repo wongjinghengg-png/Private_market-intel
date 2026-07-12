@@ -1,0 +1,45 @@
+name: Weekly Recap — Prepare (Sat draft)
+
+on:
+  schedule:
+    # Saturday 12:00 UTC  =  Saturday 20:00 Singapore (SGT).
+    # Running Saturday (not Friday) pulls the week THROUGH Saturday into the recap.
+    # Later on Saturday = more of the weekend captured, shorter edit window.
+    - cron: '0 12 * * 6'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Lookback days (default 7)'
+        required: false
+        default: '7'
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build recap + draft key events (no email)
+        run: python main.py --weekly-prepare --days ${{ github.event.inputs.days || '7' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+
+      - name: Commit backfilled archive + draft
+        run: |
+          git config user.name "Market Intel Bot"
+          git config user.email "bot@market-intel"
+          git add data/archive.xlsx data/briefs/ weekly/
+          git diff --staged --quiet || git commit -m "Weekly prepare: draft + backfill"
+          git push

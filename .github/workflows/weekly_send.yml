@@ -1,0 +1,40 @@
+name: Weekly Recap — Send (Sun)
+
+on:
+  schedule:
+    # Sunday 13:00 UTC  =  Sunday 21:00 Singapore (SGT).  Change to taste.
+    - cron: '0 13 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # No ANTHROPIC key needed — send re-renders the Friday draft (+ your edits).
+      - name: Render, email, publish
+        run: python main.py --weekly-send
+        env:
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECIPIENTS: ${{ secrets.EMAIL_RECIPIENTS }}
+
+      - name: Publish latest to GitHub Pages
+        run: |
+          git config user.name "Market Intel Bot"
+          git config user.email "bot@market-intel"
+          git add docs/latest.html data/briefs/
+          git diff --staged --quiet || git commit -m "Weekly send: publish latest recap"
+          git push

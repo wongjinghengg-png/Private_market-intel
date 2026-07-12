@@ -1,0 +1,45 @@
+name: Gather Articles (on demand)
+
+on:
+  workflow_dispatch:
+    inputs:
+      company:
+        description: 'Single company only (optional; leave blank for all)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Gather + dedupe + archive (no email)
+        run: |
+          if [ -n "${{ github.event.inputs.company }}" ]; then
+            python main.py --no-email --company "${{ github.event.inputs.company }}"
+          else
+            python main.py --no-email
+          fi
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+
+      - name: Commit archive
+        run: |
+          git config user.name "Market Intel Bot"
+          git config user.email "bot@market-intel"
+          git add data/archive.xlsx data/briefs/
+          git diff --staged --quiet || git commit -m "Article gather (manual)"
+          git push
