@@ -1,34 +1,32 @@
 [
   {
     "when": "Next week",
-    "label": "Manus ownership shake-up",
-    "text": "Watch for confirmation of Tencent becoming Manus' largest shareholder and details on unwinding Meta's $2B acquisition, which would reshape the AI agent startup's cap table and strategic direction.",
+    "label": "PayPal-Stripe/Advent bid response",
+    "text": "Watch for PayPal's board to formally reject or counter the $53B offer and for Stripe/Advent to signal whether they will raise their bid, which will reprice fintech M&A expectations across private payment names.",
     "key": true
   },
   {
     "when": "Mid-week",
-    "label": "OpenAI leadership transition",
-    "text": "Follow reporting on who fills OpenAI's No. 2 role after the exit, as continued executive churn could affect enterprise partnerships, fundraising momentum, and product roadmap signals.",
+    "label": "Databricks round finalization",
+    "text": "Watch for confirmation of terms on Databricks' $188B private round, as pricing details will set the benchmark for late-stage AI infrastructure valuations and signal how long its IPO delay persists.",
     "key": false
   },
   {
     "when": "Next week",
-    "label": "Anthropic infrastructure read-through",
-    "text": "Watch for further data-center/compute lease announcements following the TeraWulf-Anthropic $19B deal, which validates demand for ex-bitcoin-miner power assets now pivoting to AI hosting (including the miner reportedly raising $30B for Meta)."
+    "label": "Anthropic-Meta compute talks",
+    "text": "Watch for any leaks on structure or size of Anthropic's early compute deal with Meta, which would clarify how strained frontier-lab capacity is and read through to cloud/GPU supplier demand.",
+    "key": false
   },
   {
     "when": "Next week",
-    "label": "Anduril contract momentum",
-    "text": "Monitor additional NATO or allied defense procurement following the Lattice selection and Poland Barracuda deal, which strengthen Anduril's valuation case ahead of any future raise."
+    "label": "Apple v. OpenAI litigation filings",
+    "text": "Watch for initial court filings or OpenAI's public response in the trade-secret suit, as escalation could complicate OpenAI's already narrowing IPO window and its Apple integration.",
+    "key": false
   },
   {
     "when": "Next week",
-    "label": "SambaNova capital deployment",
-    "text": "Watch for how SambaNova signals use of its fresh $1B at an $11B valuation, a useful pricing benchmark for AI-chip peers competing against Nvidia's incumbency."
-  },
-  {
-    "when": "Mid-week",
-    "label": "Perplexity legal disclosure",
-    "text": "Track fallout from the court granting access to Perplexity founders' personal emails, a potential precedent-setter for AI copyright disputes that could pressure the startup's next funding round."
+    "label": "Flock Safety contract fallout",
+    "text": "Watch for additional police departments to follow LAPD in renegotiating or pausing Flock agreements, a spreading civil-liberties backlash that pressures the surveillance-tech startup's growth narrative.",
+    "key": false
   }
 ]

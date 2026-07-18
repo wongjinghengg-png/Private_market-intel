@@ -1,52 +1,48 @@
 {
-  "week_label": "Jul 04 – Jul 11, 2026",
+  "week_label": "Jul 11 – Jul 18, 2026",
   "issue": "",
   "counts": {
-    "signals": 99,
-    "companies": 42,
+    "signals": 105,
+    "companies": 39,
     "sectors": 6
   },
-  "brief": "The dominant story remains capital flooding into AI infrastructure and models, with TeraWulf's $19 billion Anthropic lease and SambaNova's $1 billion raise at an $11 billion valuation underscoring how private markets are still writing ever-larger checks even as strategics like Tencent angle for control of promising startups. The private-public link is tightening as these bets increasingly reach the public sphere—whether through lease-backed infrastructure deals, humanoid robotics IPOs, or the leadership churn at OpenAI that signals maturing governance pressures on the sector's crown jewel. Watch whether valuations and expectations can hold as expansion accelerates broadly—Waymo's new markets among them—and capital-intensive commitments meet the reality of monetization timelines.",
+  "brief": "The dominant story remains the escalating capital and compute arms race in AI, with Databricks' $188 billion mark and Anthropic's talks to source compute from Meta underscoring how private valuations now hinge less on revenue than on securing scarce infrastructure. That dynamic feeds directly into the public-market question, as OpenAI's narrowing IPO window signals that the exit path for these mega-rounds is tightening even as private valuations climb—a widening gap that late-stage backers should watch closely. With China's Moonshot closing the capability gap via open models, the coming weeks will test whether investors keep paying premium prices for a lead that may be commoditizing faster than the funding rounds assume.",
   "legend": [
     {
       "color": "#059669",
       "label": "Fundraise / IPO"
     },
     {
-      "color": "#0891b2",
-      "label": "Management"
-    },
-    {
-      "color": "#0d9488",
-      "label": "Partnership / Contract"
+      "color": "#65a30d",
+      "label": "Metrics / Milestone"
     },
     {
       "color": "#e11d48",
       "label": "Regulatory / Legal"
     },
     {
-      "color": "#475569",
-      "label": "Timeline"
-    },
-    {
       "color": "#7c3aed",
       "label": "Acquisition"
+    },
+    {
+      "color": "#0d9488",
+      "label": "Partnership / Contract"
     },
     {
       "color": "#d97706",
       "label": "Valuation"
     },
     {
-      "color": "#65a30d",
-      "label": "Metrics / Milestone"
-    },
-    {
-      "color": "#4f46e5",
-      "label": "Structuring"
+      "color": "#475569",
+      "label": "Timeline"
     },
     {
       "color": "#0284c7",
       "label": "Capital Markets"
+    },
+    {
+      "color": "#0891b2",
+      "label": "Management"
     }
   ],
   "segments": [
@@ -57,255 +53,185 @@
       "sectors": [
         {
           "name": "AI & ML",
-          "count": 11,
+          "count": 12,
           "companies": [
             {
-              "name": "OpenAI",
-              "connection": "OpenAI is headed toward a $1 trillion IPO in which Microsoft, its major investor, stands to be the biggest winner.",
-              "links": [
-                {
-                  "title": "Exclusive | OpenAI’s No. 2 Executive to Step Down in Latest Leadership Shake-up",
-                  "source": "WSJ",
-                  "date": "Jul 10",
-                  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMGRjYk9NdENUVFo3MFdZYmNXM3dPMmFwZE43V1VQdkEzTXBlUmRzVG5sTDJiNUxnUXE0X0tWTHY5YUFNb3RkSnpTOGwxYXMwd3NtNDNrYUxJbWlzbnY0N1JxV1lvQnlYT1hISWZwdXMtcnp2VTlnUDZSbTJhUUxOMG84MVE?oc=5",
-                  "color": "#0891b2"
-                },
-                {
-                  "title": "OpenAI unveils long-awaited \"super app\" as rivalry with Anthropic intensifies",
-                  "source": "Reuters",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wemJKWTFORXd6YmVORDljMUFEUGZmMlllRmlfX0lSRGpicmFuRmQ2NFNwV0hNWnhrZmZsamZGMXYyM1JGemZ0ODBnaXo0anRwZk81RzA3ZmY2VkZMYnVld2dHQV9FUFNEYjd3Sy1HNmUtdnRIbkx6Mnc0ZDVfQQ?oc=5",
-                  "color": "#475569"
-                },
-                {
-                  "title": "Scoop: Trump administration lifts restrictions on OpenAI's GPT 5.6",
-                  "source": "Axios",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yM1FRRGcyemJMc1RsLWZmcGlSZTBuakxJU09mS0k0dW5pLUthb1YzZ01uZURoQTdGR3RUVzhMRDN4Q1JwaWQtVVBkbWt6Ykx3bkpOM3hJMlozLWRFQS13Q3Jrakk3S0FuQThlUg?oc=5",
-                  "color": "#e11d48"
-                },
-                {
-                  "title": "Exclusive: OpenAI deployment arm to acquire Northslope",
-                  "source": "Axios",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUWVncFk3aF81WnNxd2liXzhuNGYzWDJ5RWlvSWxJdXMxUTJwaEs1dlp5bTBQNW1VZHkzcVBieURJcjVvRHJ4dnVZUlRrcmhsaHFHdEpFbUNubzl1cDRqdXVBUjBXbkE0M2lETk02eG9BRDFoY21TSEF5b05UWmV5akJ4dl9NMmdP?oc=5",
-                  "color": "#7c3aed"
-                }
-              ],
-              "_sc": 5
-            },
-            {
-              "name": "xAI",
+              "name": "Moonshot",
               "connection": null,
               "links": [
                 {
-                  "title": "SpaceXAI launches Grok 4.5 model for coding, agentic tasks",
+                  "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
                   "source": "Reuters",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORmdrSWI5N0ZiNHdwbXdEMkFHTzZTc2FoMHptUVl3RUtKQUJ2WXBjZjgtRGdlenNDMnBQUVdYbENxdzI5dklEVWtqQkRpSGUtVjdQNkFVbmdXbllFb1E4allfQUZleE56VWx6QXozanpLRkxaT3loUTJROXpsN1JQZkNmQlNwZndrc0dMNk03WWNXalU4RnZqZGhjOU5od1FpelVlSU1VMXJ4ck5KenBTcA?oc=5",
-                  "color": "#475569"
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFBidnJRbHRkSDh4WXNUVlBOY1VmZ3NCSlRhQzEwZWY3dGJfeXlMQ1FWN1FheElOWU0wdFBJZ2p0Y0VDSnd2RDlDSExSQ3lOb19UYkc4Q0d6UEtsQzN4TWg2LWtianhwbEgtZmR4OWs4QU9QbjM3RkJqNHI2TmgzRVRxcXhuRlE4ZHdlRFRvNlBvWUxYUkFQRmZ1Y3NaeWh1V0swM2NHaW5NcEg2UGdiOHFMMzN4bGMweVE?oc=5",
+                  "color": "#65a30d"
                 },
                 {
-                  "title": "'No One Is Safe': Child Exploitation Class Action Against xAI Lists New Plaintiffs, Adds Stability AI as Co-Defendant",
-                  "source": "Law.com",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcldwZktvRkNpOUx1em02WFc1d3d0UnQzbEtVZzJvZTJtNlJKbTBEWWlqdERWVDlSeWJOSTdVXzNFOUZMbWg5WjBQMV9GaUZuTHlxTEY1TTJ5UkZqVC14T0JiYkFCZ1dvUzFzamY3S0lHOUFTQ3JzT0hiX0hYMDBxQno0cjdiQ2lUR0ZOMi1EbkRoMXRZR1hNTHJxdS1zN2tlUEpwTzBCVDRTd3lZcHJ3Vmx6dDRHb2VxSkp5b2pUNEVNb2x1Q3pLWlQzd0hDMHdDSHdGOExnbkdmU0I3cUdtZnNvcFFaMVFBNUlQVjF3?oc=5",
-                  "color": "#e11d48"
+                  "title": "China’s Moonshot AI Releases Model to Challenge Top U.S. Systems",
+                  "source": "WSJ",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcVNJNC1WR1VUN20tQWdWVHhXNU9DSUR4U2N2ZndVMDlGSEl4SW9HQkIyaTgyRFZWZHlGeWVZaE1nY250SkpPTGw1YmxlWFhDeDZ4WWQ4VHpQcHdVQ2JmM1E3QzZuZmwtTWhHV3hDYXc3MnVHcEhYQkpxX3lIRF94ZGZDWTFTRmcyRnFqamkyMWI4WDFaRVV1YWJITW15RXJL?oc=5",
+                  "color": "#65a30d"
                 },
                 {
-                  "title": "Grokを使って継娘の性的な画像を大量作成した男性が自殺、被害者少女は性的被害と父親を失う二重苦で一夜にして人生が崩壊",
-                  "source": "Livedoor.com",
-                  "date": "Jul 9",
-                  "url": "https://news.livedoor.com/article/detail/31780574/",
-                  "color": "#e11d48"
+                  "title": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory",
+                  "source": "Fortune",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmpxdXVqWlU3TWhraGVLa290R191VEZ3UmVwRXA0QzhhQzVUcGJNUm5oR3hUNnNxUThjVmk2c1k5VmVzeXExT1hOMFhtMHpTQ25USUJiZzBaRkI4MFRiZmJLTGhIdE5UZGg5cnJ3Z1RiX2hfcnlKOXhadmJtZkRiSU8xU2cxV2tiNVVBakFsUWhFX3h2ZnNBeWVR?oc=5",
+                  "color": "#65a30d"
                 },
                 {
-                  "title": "EPA joins DOJ’s legal defense of Musk’s xAI",
-                  "source": "E&E News by POLITICO",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sTGdWMjhENUQzNmVKeWd2V3duRHZDc0NUQlB3aWVkdlFQYTQzVTlhWUx2U0JDSzJ1TFZPSklPaUQ4TzZsZTdEZDZOcGZ1cWZiTkVEbmZGSXpUZTdOM05VS0dIbmJzTTJmM3dnOVI2eGlJcWVBYndCZU1YSno1TUU?oc=5",
-                  "color": "#e11d48"
+                  "title": "Kimi K3 Built A Chip In Just 48 Hours, Which Pushes Over 8700 Tokens/s, As China’s Moonshot Delivers A 2.8 Trillion Parameter Frontier AI Model",
+                  "source": "Wccftech",
+                  "date": "Jul 17",
+                  "url": "https://wccftech.com/kimi-k3-built-a-chip-in-48-hours-over-8700-tokens-s-as-china-delivers-2-8-trillion-ai-model/",
+                  "color": "#65a30d"
                 }
               ],
               "_sc": 5
             },
             {
-              "name": "Anthropic",
-              "connection": "Anthropic signed a $19 billion AI-infrastructure lease with TeraWulf, while Microsoft moved to replace it (and OpenAI) with its own AI in some apps.",
+              "name": "Mistral AI",
+              "connection": null,
               "links": [
                 {
-                  "title": "TeraWulf Signs $19 Billion Lease With Anthropic for AI-Infrastructure Campus",
-                  "source": "WSJ",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU0llTW12ck1BS3BsV2ZPR3BNWVFYcEFpcERKajZfUENDRkpZNkQ0ODhDVllBV01uQU9CWjVJNmVsZDV3amthMjJpVThYbHlnNHFsd3BfdW02OEZrVjNhczVQdVRlSDFYMzloa25ibDRJMzgtU09jY0hWTW02elEzOVFKZjN6Tnctd0ZKenFoeU9UZkdqM2xWZ2RzMXFlWVNlY3NUNVE0S3o4WWIzNG16cGRJZ1NlZ204a2NzcjhzTQ?oc=5",
+                  "title": "Exclusive: EQT’s €5bn Scaleup Fund in talks to lead Mistral round",
+                  "source": "Sifted",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EamV2Tk84b0ViUk1TRDYyR0FiOG8wQzNvSGpPbHZ4LWRVNl9OX1Z0Um5VbGV6X2xISHlwSEpZeThJbElmOEVOTkpWUVJXc200VXlPVjlRbFVIREM2OVhuQkYxdlE3RE0?oc=5",
+                  "color": "#059669"
+                },
+                {
+                  "title": "Mistral AI Wins French Military Deal",
+                  "source": "TechRepublic",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMUhVTE9waUNGZFZLQ0hCcjVVdlRrcWVOcU9IenAyTFduY1VubnotOHRpNnFZaEdDak1ONk0taGU0MkZVYlpiVlFoenF0MjhMem5zaXJjYmNLekpmM0VOTkMtT0VRUExsempaNjl4NEJacThNQUdQZ1Z6bFlZTURhVWpkcw?oc=5",
                   "color": "#0d9488"
                 },
                 {
-                  "title": "China Says It Has Found Security Vulnerabilities in Anthropic’s Claude Code",
-                  "source": "WSJ",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhuNTk2eXJ6MFM2WmREY0pSNFN1REdpZXRFVU5FNElsTl9ZNFJ1YjFXQ084M19hN3FXWTFlY2ZDRnFLLWFXZGRybkhSa2hFbUtKRDJJUDR0QlNQcUZVZTVfOWRUUHRGenNleHFfcy1oS0NYVmN6QThLMjFBWF9qMDlwZ1hnNTE0cVAzNm1nNl9sOEVnM1Q0Vkg1WUNDQTlwUGVvWWsxRlVLVFNxS1ctVw?oc=5",
-                  "color": "#e11d48"
+                  "title": "Mistral Ships Robotics Model as Valuation Nears $23B [2026]",
+                  "source": "tech-insider.org",
+                  "date": "Jul 12",
+                  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRckZGeV9ka0M4TVZoTzBZRC0tcUtfcjlFWkN3UmRvZnZIcGpiNGVsOXRyX2x3ZGR1Nno4T2I4dDBrbE1uN0JXd2tJLTFIVHJVQ2dVT1dZdHZSNm1RbjFCTGpkdGdyQ3FpZmw4WlpLN2RVaUJq?oc=5",
+                  "color": "#d97706"
                 },
                 {
-                  "title": "US crackdown on top AI fuels open-source surge",
-                  "source": "The Times of India",
-                  "date": "Jul 9",
-                  "url": "https://economictimes.indiatimes.com/tech/technology/us-crackdown-on-top-ai-fuels-open-source-surge/articleshow/132275996.cms",
-                  "color": "#e11d48"
-                },
-                {
-                  "title": "Microsoft Replaces OpenAI, Anthropic With Own AI in Some Apps",
-                  "source": "Bloomberg.com",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUlNxT0NESlRpNlEyQnN6ZXIwQU5Rb3JQY2RZNS1WOEVrQkxfUHRhWk9XMTRPQlFfM09QOGdlX3B4S091WThRdlN1emh3OENOTEw5QkdhZ1dkcERmdDJjemU3a0VJYUhLWDNzeHFweDUzbWxuT0FjUGNPdEhTREhMa2FldEpJelE1SnZoUjJTSnQyMlc0MldoZF80SHE0d3BrUlBDeUVFT3Bsa3VoUTF1Tg?oc=5",
+                  "title": "CI&T and Mistral Partner to Power the Next Generation of Agentic Enterprises",
+                  "source": "Business Wire",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcWhNYmtFQS01Y2hfVFpxWDkxY0pLTWc1QUFpSEp5T2k1Q084dVloWGM4YUczWjVaYmpSZlY5VWRCbThCSXNkNUliT2F6MTExTWF3TWNxb3lZX0FDU3BaSVdpUjdqbTJSYXJSR0VHeEVsXzdkaXhWU0k2ckRac19MX3JiNUtNTi1TTWlQYkMtd0t2TF9VYTdiM2xhNzEzWTlMa3I2TGZDdGFWNnR0dW4tZF9aN2xrV0lTY1F2S2ZYZXBRYTB3UjJhdkV2bkI?oc=5",
                   "color": "#0d9488"
                 }
               ],
               "_sc": 4
             },
             {
-              "name": "Prometheus",
-              "connection": "Prometheus Laboratories announced a sponsored testing collaboration with Celltrion USA on Anser IFX for ZYMFENTRA.",
+              "name": "OpenAI",
+              "connection": "Apple is suing OpenAI for alleged trade secret theft following its ChatGPT integration.",
               "links": [
                 {
-                  "title": "Bezos’ AI startup Prometheus raises $12B, valued at $41B",
-                  "source": "eciks.org",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGYzFUbWF6N0gxUXp1dE9oZ2R4RUN6azJNLVdOSTlvTW43LVhnRkJyN2FhekFCSVJMQ3o1RmVXN2Z2eUxVaDZWaWVtZ1lsVnQyQVhPNFlZcWVrYVBTRDZRWURBVGw2LUhURDhpSTBaZWxPMGdyUFI0?oc=5",
+                  "title": "OpenAI’s Growing Challenges Narrow Its IPO Window",
+                  "source": "WSJ",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM1hqeTlCYlhLdXVENm1wQkhuZXZtQW5LNlRaWWVKN1VPVEFlSm1wZVEtVmEtTlpkcXpmbHBVbkNLRG41LXcyTkhDa21DS3RlZHdQZVZYX3gxck5KV3FwbmNHc2tGQ3lCSzgyYVVVdzV3cGlRVEVyZWRBbkgxcHFQMFU1NGlnN212d1duMWR3?oc=5",
                   "color": "#059669"
                 },
                 {
-                  "title": "Commissioners: Prometheus data center developers considering new Natrona County site",
-                  "source": "Oil City News",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVWhsSlZTeUtEWTlVVEt2SGQzNHVPbmlneXhEblNiMnkxMldNMnlwRHJnTGJWQlN5UFBGdVFjMHhUdzNUN2ZnYVFBckltUjBTazNlM2VQYVVyNDN6S1dZQkhIQ2g3cTYzZ0FOS1B3a29yTThHRk5EOEdwdHJURld1RjJFMVdpWS1HUkxod01jWkd3NHJ4Vl82V2NXQVB6YnpqTG5qZElOcGQxamNTRHZKVUdBdjFsSjhUZ0NQU05OR3ZfRFVldE9xalkyVmRjNHhuVGdGT0M4RzlzX1hiazc4?oc=5",
-                  "color": "#475569"
+                  "title": "Apple Sues OpenAI For Trade Secret Theft After Integrating ChatGPT",
+                  "source": "Forbes",
+                  "date": "Jul 12",
+                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbGlEQ2tqTlhoQlg0MTFmWHZpUFh1VkhSSkpPZUluRnMzb2xRS0paLUZNQTYwd1JKUXg0aDRmWENqWTVSeEhpZ3FzRUVnNV8tY2NORjVzUkNDRXdwRXRHVlRlTnQyYlV1S0xmelRqakQ2RFZrZ2x2b051YnNDYVYxQzlTRlIxMUlNRS1MT2kzQVJtYkNZRkpUOExvaFA0WWFXSUw2aVJaQzZKekZzeVdtU3BmMjR0amZ0Smc?oc=5",
+                  "color": "#e11d48"
                 },
                 {
-                  "title": "Prometheus picks up Sunnyvale apartments for $70M as AI-driven housing crunch tightens in Silicon Valley",
-                  "source": "The Real Deal",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONnplUGlMalVkekZsZi1IR0ZvXzhland5bjJyNXVZQi1RZkhNZm03RFlDTUhTOU1pdVhXQk05b19WSjJtYkJoSGZmb0pOS0h5N1FLUTJwQWhqeGZvV29TZGU1MGp2a3BuZ09iRkw5VFJyTkluZGY5QkV5WUVWNXVRU1o4Mmp4VXViNlNTSGt1UDNYWEdqWHBTMGV6TUdSdGl1OXFiRTAtWQ?oc=5",
-                  "color": "#7c3aed"
+                  "title": "OpenAI engineer’s ‘LOL’ moment set stage for legal fight with Apple",
+                  "source": "Fortune",
+                  "date": "Jul 11",
+                  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVWZJTTBwTS14NTBEMFpsZUlQamxwcDNyZDNsTnVwNDVlRi1VZ1UwUnIzMWRKUDVfMVZUWFQ5QjUzelNJWFZ1TEhxU2RYNjZpZ1FEMTRac29TNzE5OUtsbl9KZzYyeGlIbi1KVVZLT1NTNFFWNEZYeFltRFNhTlYyOUxrY0tNSV9iYVBVOTdOMA?oc=5",
+                  "color": "#e11d48"
                 },
                 {
-                  "title": "Celltrion USA and Prometheus Laboratories Inc. Announce Sponsored Testing Collaboration on Anser IFX for ZYMFENTRA (infliximab-dyyb)",
-                  "source": "Cadillac News",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxOV05qN0RoYVc3bVJWamtuRzJ6QXRXR2xlWlhkdi1Sb1NjQl9CbF9QcnBsa2M2czRwOWtYbzlWeXNJZEgtWkIwdUl0Ui01a3JDN0ZlWDRDVVpRd1VYZ1U0RjhQUi1RQlV0dWZEeGN5UEw4dVNBcDNlR3ZaSy1UTWFaUTdMdEpaQ1o0Y1FoNV9WaWRWY2tKa0tqOEQwUFo3M0d6UnZQTUtXN3ZkaEQwcGZieWJlcFQ1cjZIejFRSDc1QVQxaVRHc2dmWlpFTkxucm9wb3ZuV2w0SmJYak9Mb0ZXc2lfMGxPd2ZHcXFESENabkdoOWxqVXZJWVFhTGhWOEUtR3o4YV9GUFVxU3h0UmpHbndlcGxOUlI1UTRORlpBVkh5ZXhYbUR6Mw?oc=5",
-                  "color": "#0d9488"
+                  "title": "Apple targets dozens of OpenAI employees with legal letters",
+                  "source": "The Irish Times",
+                  "date": "Jul 17",
+                  "url": "https://www.irishtimes.com/business/2026/07/17/apple-targets-dozens-of-openai-employees-with-legal-letters/",
+                  "color": "#e11d48"
                 }
               ],
               "_sc": 4
             },
             {
               "name": "Stargate",
-              "connection": "The Stargate project involves Oracle building out its massive $500 billion data center infrastructure alongside OpenAI.",
+              "connection": null,
               "links": [
                 {
-                  "title": "OpenAI, UAE Launch Massive Stargate AI Data Center Project in Abu Dhabi",
+                  "title": "$100B Stargate AI Project From OpenAI and SoftBank Stalls – Here’s Why",
                   "source": "TechRepublic",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObEVSekNwTGQ4SUNmeDhFa1h2cjBYcGl3OGJpcjBsenRXdEdtWWxlOEdxdExmeWJMZHdDaU95TnBEMi1KWHZCdGdvaVVuZ3JxSHgzM2h1b2gwRGhhaU1QQ2I5OURXT0JqQkkxNzdKNWJ0OVlXSWNQdHB4dGd6dG5zWWJFNVBoejg?oc=5",
+                  "date": "Jul 12",
+                  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQODN6UWFnMXFIZVE0ZzVEQ3lfYVNKNFRwM01VRmtoTEN2ek9XTExZbUhkY2YwQXpySXg0QkZfOEhRYzFHbEFhWkpsVi1GYXpGV2JJZWNUUDU3VElBY0JsN05JYzgtQWYwQXF5Rm9wRm9xdVRlUnBjSU1BaXVRdzhOQm8wZw?oc=5",
                   "color": "#475569"
                 },
                 {
-                  "title": "Power Developer Behind OpenAI’s Stargate Data Center Is In Talks to Sell Stake",
-                  "source": "The Information",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLWMwTnZaRzZyN2JMdHEwdjlnNDVlb3ZXUkcweWUyMGpiOVhPSUNyUFppM3lzZ184ajlkTEV0Q1A2WlRCanR6by1UQ0Z0ek5VbjdGcDdXZ3dpTW5xS3J6VkZYd2M5S2dFdVBNWC15bk5OSVN3bUJJZ0ZYM0REYTBmM0xCME9vR21wSzkxOENkbGc4Nm8tRTBiVDBLdG41ajBWbmdDMGY1U0V2VWhP?oc=5",
-                  "color": "#4f46e5"
+                  "title": "'Stargate' $16B AI Data Center Project Just United Left and Right in Protest",
+                  "source": "Android Headlines",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTDhyLVRncTVVeEZtV1dpS0lxaVcxMkZjRi1SVGllOUtFVjRVSHRSWFhMRU5hUlVxTVI1bzI2azNxS0tRMW5WWElSQkNGRXRmWnRzTms3TUdlRnIyblBrMkhLbVU2S2JhY3NkSVpoUVE4UXJXUFhyblNxZWQyeU1QdC1iUEQ5dDgxZy05VjlGc2VfcUhidWc?oc=5",
+                  "color": "#e11d48"
                 },
                 {
-                  "title": "Is Oracle’s Massive $500 Billion Stargate Project in Trouble?",
-                  "source": "AOL.com",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdnBsTFc1bWNhdkVlbjNfYktiNjRRU0FOMVZJc0NqNU9jX3ZOSU45dUR1Zlg2cmZqZE5feDdVZU5WWlBmSmRWMHBBWHVQNlhES2lySWo1N3lXaW1PSEhfU2FkQUYyOThtMWZxbDVteXo5blBJbExPbDFQR2ZnSUc0ZUZyV2c?oc=5",
-                  "color": "#65a30d"
-                },
-                {
-                  "title": "Elon Musk Takes Swipe At Sam Altman Again As OpenAI’s $500B Stargate Project Reportedly Hits Turbulence",
-                  "source": "Stocktwits",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbVphQnQ0M3c3aGRVbzBwUVhIV0t3V09TU2NCdGkxclhJdEQ2ZjJHdGhidXBKVzRGbHV2a2gxM0pnN1dCbld6bHV4MnVweVdOLWpUd1l3dmNWb0hMSUFBLXM1eDRQT21QZElMMGNHNUEyU0xnYWd6UEZic2pIejNnYVExQnY4RGtNNm12SFAwWVRFTGNZVW5sMlk3S1VmaklOaXI3LXJnUlhNZ2ZPQUpHdThFQUlwMEp1dVJJLXF1M2k4N3N5eTQzWk5fc0ExS1pJZWp4WVc5cVNicTAtaWpPcXRuX2RSZTlVUGtuWUJWcW1uMzBtRVZnSw?oc=5",
+                  "title": "OpenAI’s Stargate UK site visit gap raises investment doubts in 2026",
+                  "source": "Memeburn",
+                  "date": "Jul 11",
+                  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR0pHSjhpRE4ycEpkeHVPc2NObmtzNmZLVGkwTFNFVGpyczZkRjdhal81aGtFSk11cDUtaE02SmltWjZkQ0VYa1BXTHp5X05EZnQ1UXRDMXp1YnctZndyN3NEX0tmeXRtMng3VXo2Sld1TmRtNHBZeGE5NGNwNW85a2oxaFlnem13QjNBVS1jZkFrQ1U?oc=5",
                   "color": "#475569"
+                },
+                {
+                  "title": "Nvidia and tech firms eye minority stake in Lancium, the power backbone behind Stargate",
+                  "source": "Crypto Briefing",
+                  "date": "Jul 11",
+                  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wUEhXRi1wNEdjaWc1Y0wwVGJ0U0pZMjFSbmNNdUpKemZqWmNJRmtqU3pFRnZwQ090NVRaSi05eVBfNzI1bHFuZnZZNWVPQTlGZnE2MmdZY2I0aWMyRUtsRmN1dVk3QkFqal9KR3RnWDYyZw?oc=5",
+                  "color": "#059669"
                 }
               ],
               "_sc": 4
             },
             {
-              "name": "Manus AI",
-              "connection": "Tencent is reportedly in talks to become Manus AI's largest shareholder while leading an effort to unwind Meta's $2B acquisition.",
+              "name": "Anthropic",
+              "connection": "Anthropic is in early talks with Meta to acquire compute power and has struck a healthcare tie-up with UnitedHealth's Optum unit.",
               "links": [
                 {
-                  "title": "Tencent in talks to become AI start-up Manus' largest shareholder, FT reports",
-                  "source": "Reuters",
-                  "date": "Jul 10",
-                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbFpzUmJDMlREcGZWUUdDdlJybWdBY0Q5NXcxUFdiT0NrV3V2OUtyZjVHUmFROHB5c2ZHNjN5QkNmNU0wT2dSdm1YaEJKRklfNFZSWmpEdHVYa2VDNXhEX3FpLUhyZFZCZHlndjhJbE1pQUtRRlpyT0ZOdWdFYVc1S3Z4VC1FamNUdlpXNUxQcjZOa1FBSFlHV044NHFKSlNNWjZwVGFQeU9WZUVCYWZqUDF6cXVRQXc?oc=5",
-                  "color": "#059669"
-                },
-                {
-                  "title": "Tencent leads effort to unwind Meta’s $2B Manus acquisition",
-                  "source": "Crypto Briefing",
-                  "date": "Jul 10",
-                  "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83YmxxNC1Sc1NRazhVLVBoY3BGODIySGcwV3dnd3hrb0lvYlA2NHBHZlhPWVpsQkVncHQ4WXcwSHJaSEwwd29JTVdFaWYtMXE5Wm5JWFlTTHRmbkVrMnlJMmJCY05kaEMyM0JtQUNyY29Jcjg?oc=5",
-                  "color": "#7c3aed"
-                },
-                {
-                  "title": "China Considers Limiting Overseas Access to Advanced AI Models",
-                  "source": "ForkLog",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMUlmakVOX0d1N1EyUk14a0hPd2xmNkpELVVQdGlrQXJUY2tudWVhZDAzY1Jib25iTVRyZWNKdm5BYVpPdHkyemtkWWVDYmtMTDZ1QjZVeXlWX3IybFljbFY1XzdvdjBlOG5wYzU2X1VaRElSSXM5UERXN3ExTWlSejNwVF9IN2tUOFFuTS1Lbw?oc=5",
-                  "color": "#e11d48"
-                }
-              ],
-              "_sc": 3
-            },
-            {
-              "name": "Perplexity",
-              "connection": "Perplexity announced plans to use Nvidia's new CPU in its infrastructure.",
-              "links": [
-                {
-                  "title": "Dow Jones, NYP Holdings win access to Perplexity AI founders' personal emails",
-                  "source": "MLex",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KZm5NZS1vNUNHUG5jR0hSb3BnSXhPSE1INmR3ZU5iS3FiMFVyWjhVeXY1TV9EZHB1QlhKNWdNbUNIa0RQX19uYkI5Nk5LTWIwTUpVOGlLb1NfUdIBWkFVX3lxTE9KZm5NZS1vNUNHUG5jR0hSb3BnSXhPSE1INmR3ZU5iS3FiMFVyWjhVeXY1TV9EZHB1QlhKNWdNbUNIa0RQX19uYkI5Nk5LTWIwTUpVOGlLb1NfUQ?oc=5",
-                  "color": "#e11d48"
-                },
-                {
-                  "title": "Perplexity says it plans to use Nvidia's new CPU",
-                  "source": "Reuters",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQ1NRWHc3VE5aczU0bkFTbFFGM0lyM1ZDX2psdXludkMxbTNGamdCdE8zWUc4WVpVbXlnZGNXa3p0ZUZ5alNDZUpUbElGenFDWlhTQmpYWGg5OE9XR3Naa2x6blFreUZETmRXZW5pblIxeE8wTVpnenN4RWV2Y3hidlZIZWRXeUE0MGl1d1NtTVExcG8?oc=5",
+                  "title": "Anthropic in early talks with Meta to acquire compute power",
+                  "source": "CNBC",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tZWtxWDkycmdUVlYtM3RpUUdqTVd5cWloOWVnYVZPWUxpc1pBZDFtNkN2NTM5anJXdmRlYnJubDhTV2pyWEp1cnRWQ1pWUnZ3U21OQ0ZhUHAwcGlUN2h4ajNaZVhWWmc0ZTRad0NNNNIBdEFVX3lxTE03WExldWF5Ukd0VGxHRjluWlBNVEZPbW9KWk5LQjZJbk55T3ZjQWozel9NMDZVWkZsYUFKNE9kUmVTN2xSNFI5MFZMOGVqYjVsenFjdmlPYzFvVl85WnhXLTBBOGt4eER0ZW1KS3E5ZE5XNHZJ?oc=5",
                   "color": "#0d9488"
                 },
                 {
-                  "title": "Perplexity is building a secret weapon to join the AI coding wars",
-                  "source": "Business Insider",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRzZEZmpBWjZRU2ZqN3FpWnhEYUIwZDNwUG1ob2FMMWkxOTJ1Vkt5NUR0dFVxTmp2QU5HRlp4WkVYWkVqcjlTcjhJajJwNXQ1cGxyOC15eVFKSm5OelFsX0llV3FNWHZtSkFsVDBlbGNuTXNmTm1KMDBmQVZoUUxvM3ZoM1JlaXU2ak9uX0twc1gwYy1DVzdHSmJYRFNvTEVq?oc=5",
-                  "color": "#475569"
+                  "title": "Anthropic bets bigger on healthcare with Optum tie-up, UST integration",
+                  "source": "Fierce Healthcare",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS2FCbGtPRjM4V3JaWHpLeGc2Q0Q0M0pmQzNXdnFnQVFCVVVjMTZvMkxlcTgtNkh6Y3llZEcydDRvSWVsaHB1bEtuLUlzWWxMLTV5TVc4bGpvcENSUDNHZmdyRTlDdWdOeFY1THM3RXNFZ3RUVl9LMWozSzVoNjRSdWZkM2pZcmhFdEpxVVZSWlpZS3VoVnpjWjR6bTFkQzQ?oc=5",
+                  "color": "#0d9488"
                 }
               ],
-              "_sc": 3
+              "_sc": 2
             },
             {
               "name": "Anysphere",
-              "connection": "SpaceX acquired Anysphere's Cursor for $60 billion and the two are set to debut a joint AI model.",
+              "connection": null,
               "links": [
                 {
-                  "title": "SpaceX Acquires AI Coding Star Cursor for $60 Billion; Founder Reveals How Early Talent Was Unearthed from Discord Communities",
-                  "source": "finance.biggo.com",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tU0JSTkNxWGtuX2dSanV1UGphR05LeEFEUzFEUHlWcEJmUm5wRUNXUUN5b1ZPSjVXdGtNZC1fbEhHemwxNmJER3FTT2UwczdnUUo1eE15amFkTU1UcE9vb0pCZ25nTmRnbTlPMTM4WGRKaGlTMnc?oc=5",
+                  "title": "26-Year-Old Sualeh Asif Becomes 4th Richest Pakistani Following SpaceX AI Deal",
+                  "source": "TechJuice",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVy1JdDV3NjVwTWtKWm1fWE9Fa0hpS3lWV0JrMVVOODZnN3FPcFNuYWZVdXpLWThUWnNMWkxfdlZUbDBaSzRadW5rZ3JpODRGR3JXTmRYUzFqZ0JvZlUwMUZ0T1pnbVkxdFgxT09ibk5QeE54aklmSG9xRThIaHhIeDRFNGtTVnZYNmpkNFByZ1Rxc0JBcEc2MVFnNlU0cnpoUzQzQnpIYw?oc=5",
                   "color": "#7c3aed"
                 },
                 {
-                  "title": "SpaceXAI And Cursor Near A Joint AI Model Debut",
-                  "source": "Finimize",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQS3YwQVZmVGltV0JXdFpXbjJMcmFVck9vc3g3TElaQ21pVUQ1MnNqTHVXWUg1ai1DX3BxcWo3TE4wcGdGSHJZMzhla0pBYWdOMk1TeTE3ZWw3R01PRnNYazM3QnR0T0F2TVJCSk9yekJqaXBfUFZ6OGtZTjZkcFFlSUx3?oc=5",
+                  "title": "Cursor is building a Claude Cowork rival, and Musk may decide its fate",
+                  "source": "The Next Web",
+                  "date": "Jul 13",
+                  "url": "https://thenextweb.com/news/cursor-sand-ai-agent-claude-cowork-rival/",
                   "color": "#0d9488"
                 }
               ],
@@ -316,39 +242,102 @@
               "connection": null,
               "links": [
                 {
-                  "title": "What Betting Markets Really Think About the OpenAI, Anthropic, and Databricks IPOs",
-                  "source": "24/7 Wall St.",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXU3OEVPNVFsTUVUdzZJSjVoNDFRVlpmVVV5aE0xcUZpVGlkUVR6Q05jSl94S05ObDZVOGdsVFV0VXZvVEZZWmxDelZZamkzOHVPeFhrbjlMNTBGS1NjcjQ2a181aVFOQ2NOYXVjNG83TVRhczBRaWpZVGxXSzdIYmtrMFZuWlpyMnlXR003cEh5LTBpXzV5bWR5d3Jna1FITUVwQm5seVAyV2IxX3AyM0NNYzJFdHFWQUg5TFJrWE55dw?oc=5",
+                  "title": "Databricks secures funding round at $188 billion valuation",
+                  "source": "Reuters",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOc1cwd3JpUk9WLXZhRGZ4N0REZ2YwbDlxN0lpVExTMG5icE04aEhWalp5OHNaUWhUSkRBRzFHV3R4TW9TeDZFXzlRWXgxVjlpQmFKbXIwc3FrUFNycE5IRG9FSlBZZjNSbVRqYmNXakR3MFZ1SncyTkhiNFl5amVLRmNCWlBMbDFtNmpzWVU2cUJzYURrNzQ5ZHdidGFxRVJ6RUJhQm5GTEs5ck00blRfeG5HbUtRSTdNTjJBZUFiRmRtWTg?oc=5",
+                  "color": "#059669"
+                },
+                {
+                  "title": "Instead of an IPO, Databricks heads for third round of private funding in less than a year",
+                  "source": "The Business Journals",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSGhmcktPNjlmQUZEbTZhT3NqOW4zMmtaUU9Nb2ZoQ2JoUVJrWFpTZzJMdUZxY3huX05JQXp0WmdGUjY4VmNEem1sUFoyTDVockw0UjEzeWJWam5vbklGeHhvUHdwSEhoblN0WVFMMkJWZlBJRHdkNFdSX2xrQTJjTFBBVW5lV1NPOXAzUmFzeDJEU0szaEhQejc3WjRtcGF2dUE?oc=5",
+                  "color": "#059669"
+                }
+              ],
+              "_sc": 2
+            },
+            {
+              "name": "Manus AI",
+              "connection": "Meta Platforms' attempted acquisition of Manus AI was blocked by China following an ads manager integration.",
+              "links": [
+                {
+                  "title": "China Blocks Meta Manus Acquisition, Comes After Ads Manager Integration 04/28/2026",
+                  "source": "MediaPost",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM25kNkNYQkJNVk4tY25LU1RKcWFJOEdnZE9SOWc1SjRsYW55dTY5T3RLN1RMMHVrSVRiX3BXWDBNcm02azJwejBkYzdtbFVTWEhmTVYzaEEwazV5SUppcGpISWlvTmNoWmtybUxZc19GVlplSU9DbFhLLXJVYklOU0lsRXdsMWVIN04zc05CRzFmVmNaWXZPdF9JbE83VXRveVl3THpUYjlDQkFn?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "What Just Happened with Meta Platforms and Manus",
+                  "source": "Kavout | AI",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU0JDY2RNcmdlejE5U0tQRTZ0SUhEU0VrSHNHdlRQS3hpQThSQ2pwTWl0LUdyR0pOVWZ1ck4yZ202QzVZY2NvZUxSbkNOUHNKVU4zTlh0SU9ISEZ5T3kxV2RMRXJtaUhaODV6elNlTEpaRXM4ZWdyVnd6MTJBWDEwcmxHei1FY1haTGJJ?oc=5",
+                  "color": "#7c3aed"
+                }
+              ],
+              "_sc": 2
+            },
+            {
+              "name": "Prometheus",
+              "connection": "Prometheus was disclosed as a new holding by Powerlaw Corp. (Nasdaq: PWRL) in its updated Schedule of Investments this week.",
+              "links": [
+                {
+                  "title": "Powerlaw Corp. (Nasdaq: PWRL) Announces Prometheus and Shield AI as Newest Holdings & Files Updated Schedule of Investments",
+                  "source": "Business Wire",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNeDcyV3VZSVp4RlVGY2JWWkZtMlZNRENKVjBxZEt3VjdGeklJWFhTN2RYZENtWk81UU05dkV6R1dvR2ZRMklsY3ppVGk2NWFWWnc4UmFfOGJmVnZlNzZmR3AtMFhOcXlFUVhxb2lQbzQ2Tk1aWEZXbXBIdFN4MUVHanhXbVZ4QzVrT1dNTUZfRzU1T1lSZ3ZWMFhQQzRkNXdGZzVyZHc1WEI1VmxPWGd0UGxiR1Z5RXVLVzdpakRYdHhaWGZoMHdqTzdMRWtDbWJfLU1PT3hCMzIxMHVjRFBqT3ZhYTFIWFAyZmN4eGxKNjdRVHRXRjZxUGZDQnRlSUU4Z21lMUhR?oc=5",
+                  "color": "#0284c7"
+                },
+                {
+                  "title": "Jeff Bezos's $10 BILLION Project Prometheus - Why He's Ignoring ChatGPT For Industrial AI Amélie B Simard (HB9XQDqnYD)",
+                  "source": "Mshale",
+                  "date": "Jul 12",
+                  "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzM2NBdmc3Q3NNWWF6dXBpMVRhNHM2LUJKaXJ3T29tQ28tWWFtSGpqZF9GNVlmRzRuLXZ2RDF2MGlBTDNYX1c1RVRnb3JMQmRGc1k5Y2xGMTZxbUE?oc=5",
+                  "color": "#059669"
+                }
+              ],
+              "_sc": 2
+            },
+            {
+              "name": "Groq",
+              "connection": null,
+              "links": [
+                {
+                  "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal | TechCrunch",
+                  "source": "TechCrunch",
+                  "date": "Jul 17",
+                  "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
                   "color": "#059669"
                 }
               ],
               "_sc": 1
             },
             {
-              "name": "Mistral AI",
-              "connection": null,
+              "name": "Perplexity",
+              "connection": "DocuSign brought its contract automation to Perplexity's AI platform for legal teams.",
               "links": [
                 {
-                  "title": "Mistral launches first robotics model in physical AI push",
-                  "source": "Reuters",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWEhvMGlyMXhJREFWZURld1hnTEJaMUpoeTA4d1pZQUQyQTNwZUhDOHE2SGJqTzJnZlNXelJTR2FDSGwtb00zRTlzZFlHVnh6dGp4X2s0dXhwd1V4S2JnWUw1cUY4Ylppd09nM21lQ1RfM0tIM1VmYjc3NlRGeDdSSUJmTDBqRGttZmxIemtSX2JVNTdFdm5vMktBVlNXMnB0?oc=5",
-                  "color": "#475569"
+                  "title": "Germany Strips AI Search of Its EU Liability Shield in World’s First Media Ruling",
+                  "source": "Tech Times",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYzlBLXZCTDJ5N1BMa0lwVmJPbjJ1R0E4VGhyRW5xNUdBd252T2xWOVBfa1FvTVdJdVpsS3pVbFNidC1mWV9Uc0k0cTR6WEo1SmQtRnlKQ1d6enJqQnp1V3VUeEZoQnNnSWJfVnp3UnMtQy15VXJmXzI4RXRDcXFJVC1Eb1U3UjBRYjJ4TTBTUERHLVUxcDJSUi1YRV9VOWFjRF9VVlVKdFR4N2hUOC1NSnc3QUFma2JselBCN19lbnlGUnQtb25PVQ?oc=5",
+                  "color": "#e11d48"
                 }
               ],
               "_sc": 1
             },
             {
-              "name": "Moonshot",
-              "connection": "Moonshot AI reached a $20 billion valuation after a financing round led by Meituan.",
+              "name": "xAI",
+              "connection": null,
               "links": [
                 {
-                  "title": "China AI startup Moonshot AI hits US$20 bln valuation after Meituan-led financing round",
-                  "source": "The Standard (HK)",
-                  "date": "Jul 5",
-                  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa1VXTG9OOG1hVFQwOFN0YkNUTU11RHlQRlU4NHdnbVRLOEk5YzBOOFBTX3BFcEFwdG9Mbmg2TV9WNkI3OVItUVlVbVA5djM1a1NTYlFiSE04Mnl1SDlEdk1yQUlLYVJPa2RCemEwVlYtak52NnNsUmZMNUZBNWJ5Y2pmUE9fbDRJMmwwZ1lfMzlhdnFRLUZzVzBmSGcyVnBaenhIYTNOUzFmY2JvSU5SRll4bThfMHR3d2hFVTN2NURyNzBwTk9MSDVTTHV2V2g1Z0V5a1VDVHRGdlU?oc=5",
-                  "color": "#d97706"
+                  "title": "Elon Musk’s xAI sues user over allegedly creating child sexual abuse materials with Grok | CNN Business",
+                  "source": "CNN",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0VIa0hYbE5BVUp2TDh3WkJKQnFzUWZzd1ZlU2x1NGRNamZ3dVItLWFIOEgzVGhORGV5a1NLMi1FWVFiVFVVNWhjVGQ2SGs1ajBGNEhNWjlJZmg3X2NFeC1feFc4d1I2RjFLSHRZcXVlejZnV2hJeV9wT3hkN2U1Qk1BcHdEbFAzOVdjcG53ZmlobVlD?oc=5",
+                  "color": "#e11d48"
                 }
               ],
               "_sc": 1
@@ -357,123 +346,137 @@
         },
         {
           "name": "Defense & Aerospace",
-          "count": 6,
+          "count": 5,
           "companies": [
             {
               "name": "Anduril",
-              "connection": "Anduril's Lattice platform was selected by NATO for next-generation air command and control, and it will build Barracuda missiles for Poland under a Trump-announced deal.",
+              "connection": null,
               "links": [
                 {
-                  "title": "NATO selects Anduril’s Lattice platform for next-generation air command and control",
-                  "source": "The Jerusalem Post",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZQVhRVVN4OGRqNGhQWE84dWF0SFRuTDVLdjJVTEM4Xy1HSWQwakNMbDA1bHI0MWhQakNiTUNiUGpwTkU4eE5FME5MTnNuRllRMHVXeW01VG1oUTAxWlJEbUU4OA?oc=5",
-                  "color": "#0d9488"
-                },
-                {
-                  "title": "Trump announces Anduril to build Barracuda missiles for Poland’s defense strategy",
-                  "source": "Crypto Briefing",
-                  "date": "Jul 8",
-                  "url": "https://cryptobriefing.com/trump-announces-anduril-to-build-barracuda-missiles-for-polands-defense-strategy/",
-                  "color": "#0d9488"
-                },
-                {
-                  "title": "Anduril CEO says it's bad to IPO in ‘middle of a hype cycle’",
-                  "source": "CNBC",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WLTcyMVl6XzVZNHQ0OFROLXVKSjVUcXBHQW45aENENnpXRmRDZVlmTGMyeFVNa3liZmlCMVdjMVZ3S2tXckdERUNDVktEZU96NmRnSFVTSXNELThqR1NPN2pOZWlKcnVWQ01TWdIBckFVX3lxTE00bjROWl9aVXRMc29LOVlyQ05rM2NBd1JEb256RGVNaXhqUUNLNlZVYmdrSktqVjBTQVl5T1JLNVJxTkQ3RUFPRjJldnhCcE55MWg0bVMzbHRpNEh5aFd2WjZIcU45WmFwUE52UzlXb084dw?oc=5",
+                  "title": "Anduril CEO signals no IPO urgency as new funding round targets $28 billion valuation",
+                  "source": "MarketScale",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQUlkR001VDdkejFjeUtEMVJBckFjVlNaeUpfdlNTSTFWanJHRVN1emlFM2dxLXRUZEFxTHl3WmxzeEg1dF9pYlRmRGdYTm5EbU9iTk95S1ZZczZ3N1V4aXlLaVZrRU1fcUJHMzVfbjFGVUJqd3lNb29JckdudkxZajZzbGd1a3MxdHYzVTVYUk1WTHNwS0pBVktienhwWnd2MUhhM0o5VXkyY2oxY3o2OG41OV9lS3F0d09YRGtRTmNUVUJmdzVsNWEyclc3eEllbi1UaWlFaG9wS29pcTBKSA?oc=5",
                   "color": "#059669"
+                },
+                {
+                  "title": "US to Acquire Thousands of Anduril’s Barracuda-500 Cruise Missiles",
+                  "source": "The Defense Post",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GcjB2WThtYnN1UzBDa19pWXZpWFJxa0I2UFE4WHRzdUt6MjN2d24ySjFwOW5pbGFxc1NQWmdWM0l4SExDand5NFpQMGpTRlRjSlZ4Tmg5TVFOTHg3d3N5S3A1azV1NURhb0c5TDFBSFHSAXZBVV95cUxNeXZpU3FNSUxUbGJXeDBGdElyOVFkQ1YwTnNLM2VpbXozQmdOV1N3eWo3YlFsV1VfRk85OS1IY3ZpeWZDNXVDZ1Exc054NFBiYk1SQWdpdzBlVnlFTmxNY3lzSlJManlMTkdfSVJIMnZ3eGpQM0N3?oc=5",
+                  "color": "#0d9488"
+                },
+                {
+                  "title": "US Air Force makes its first wingman drone missile launch",
+                  "source": "New Atlas",
+                  "date": "Jul 16",
+                  "url": "https://newatlas.com/military/us-air-force-combat-drone-missile-launch/",
+                  "color": "#65a30d"
+                },
+                {
+                  "title": "Department of War Announces Landmark Agreements With New Entrants to Accelerate Low-Cost, Air-Launched Cruise Missiles",
+                  "source": "Globalsecurity.org",
+                  "date": "Jul 15",
+                  "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260715-dod02.htm",
+                  "color": "#0d9488"
                 }
               ],
-              "_sc": 3
+              "_sc": 5
             },
             {
               "name": "Flock Safety",
               "connection": null,
               "links": [
                 {
-                  "title": "Westland to remove Flock safety license plate cameras after privacy concerns",
-                  "source": "ClickOnDetroit | WDIV Local 4",
-                  "date": "Jul 10",
-                  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdW9fSEh6MGVoc3NPM3ZrWWludmc3aXBrSEdwYmVWN01uUDV2OWFXblVQOXlKTjk3X2xCdUN3ZHZXa0p6NXUxYmZVLUJSd2xkNDlKTXRtLWczRHZCVHRaTXlaQkk2QjZZc0ZjaGtITlItQlpTSzNCRUVNLWNqNUxJeFA3Wm43ZUJGMVlYN01icG1rd09KX1hEa3VNTUhNWjh1NU5CX0s1MEdBTGg4a24xUFpjR1U5aWl4cE9ybnZTZU5fVHVIeWpBcmJB?oc=5",
+                  "title": "LAPD is renegotiating agreement with Flock Safety after 'serious concerns around civil liberties'",
+                  "source": "Fortune",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOEhXS1ZDTlFtV0FpTnZwakF3WElFUWVNdU5Sc2JXOUNkUjdNUnRYZmVDNDNUOHZacmxSYVZJTUxOejV1MmxKQ0kwWFRoS1NSci02M3ZXcGw2U19EajgtR0tWWGQxb2NGN0pWLVhxQTVab3hla3Z6RzFOODdFZGszenpUSldSUU1qeFd1ZWJ3SDlYczN0N0JrSVdwSkJjU09LTDNhMTFR?oc=5",
                   "color": "#e11d48"
                 },
                 {
-                  "title": "Five Former Georgia Police Officers Charged Over Alleged Misuse Of License Plate Reader Data",
-                  "source": "The Daily Caller",
-                  "date": "Jul 7",
-                  "url": "https://dailycaller.com/2026/07/07/georgia-flock-cameras-license-plate-police-officers-gbi/",
+                  "title": "Flock is falling out of favor with police departments",
+                  "source": "Business Insider",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVHdla2RvYVEtYy1RSlZxeUViazdHQWljQW5YTVp4S1lodnNCYlRKQkxvUkxaM2FmZnJjUVN6OC1QQl9ab0tYQUFRR1NPYlQ1SFNmcUdEYjBrcjh4b0ltSE9FeTdjSE1SY3pSUHd5cG9MbldrVnY1dGxjX25KVGcxSXkzX3JmWTlCLW1z?oc=5",
                   "color": "#e11d48"
                 },
                 {
-                  "title": "The Supreme Court Just Lit a Fuse Under Flock's License Plate Camera Empire",
-                  "source": "Yahoo Entertainment",
-                  "date": "Jul 6",
-                  "url": "https://www.yahoo.com/news/politics/articles/supreme-court-just-lit-fuse-130900307.html",
+                  "title": "Opponents and privacy advocates react after LAPD ends its contract with Flock Safety camera network",
+                  "source": "ABC7 Los Angeles",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcVZsU0drT3gxa3pZWkNwdjFCLXlDNDZnc3UxdXdVc1h5NkJrUTZmVjV1dHo0eVRZNm9ZbnFvSGxPTjd6RkdmUkJzbi0tZEUwZUUwTHZfR1RuLW1VdGplWktzYTdaUkN1eklUb1pSQ3J2NFJyTDZHekV6aF96TXNrdjdPWFFFd1diWVFpc29LYUJjOHhncVVrRHE3OUdnNEc3azBNTmxUME5HVXFxZXRrOF9R0gG3AUFVX3lxTE83UFdpcmJBVXZLdllZLVZFV1NTMENLd01HdVYzQVJQdmZ4MnhuYW5YMWJqVC1lNFR0ZWpva09mMkZRMm1vclBoS1lIcGVIUEFKbEtPVEMyNmdKRVZ6SmVySUtXV3F4cy1mQnZ0NXlfOHVld2RZaXB4RHJHY1JUdWRHa3RJTmVxbkdKVHJRLW8tU1pHQkVBSm5fc1RMN1ZobkR5RXBuV0NOdmVMbkpacTZLcTRmTXdBaw?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "The Fight Against Surveillance Cameras Is a Struggle for Democracy",
+                  "source": "Truthout",
+                  "date": "Jul 15",
+                  "url": "https://truthout.org/articles/the-fight-against-surveillance-cameras-is-a-struggle-for-democracy/",
                   "color": "#e11d48"
                 }
               ],
-              "_sc": 3
+              "_sc": 5
             },
             {
               "name": "Saronic",
               "connection": null,
               "links": [
                 {
-                  "title": "Saronic Launches First Mirage 16-Meter Uncrewed Surface Vessel",
-                  "source": "DredgeWire",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU1h0V2c2QnRmUzhfVnVjVnlPd1gwYWRZOTEyYmZIdjVOZVVveWhoTnowTVdYWWVHTW5IUGhhN25BbFFKNy1sZS14Z0xJNWpUVmtSN0I5bEJEZWh6bk01QURrclZLdDQwWGx0LU5Dd0cxb2hGNHV2eTlONGhFWU1LdV82ODNhUFN2dlB0blllaw?oc=5",
-                  "color": "#475569"
+                  "title": "Saronic Technologies picks Brownsville for $3.2B ‘Port Alpha’",
+                  "source": "MyRGV.com",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNd3pjRTZFNEViUFNjMFpJaFI0NFhLVm0wUk1TNGl4U1VkWF9YT3Bmd3ByNFFrRFdoYkxPaDV0YTViTkduUi1YNE92UktBMmNjLURxREpHTW5DTDY3aTJjUTFWMjI2bnRBNExnQlZraGRfek5Wb3ljWjBUdFBfVjBCTi1DRzBoVnFhQ3ZZanNJeExVaWVHMXpQUGo5SzVjUnRt?oc=5",
+                  "color": "#65a30d"
                 },
                 {
-                  "title": "Navy Awards $25M for Stealthy Autonomous Boats Days After Iran Breaks Hormuz Truce",
-                  "source": "Tech Times",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOHlnQUxTbE1tMHp6RWpwR190RVZXenJ4MjNpR3hqR2lxTTVLV1ZoemxfQm1Kdkw1cng4dXkzazhsOWxjTkpVQkNWTXdCaUQ2aGlTTmFwZTBGYWUzb3h4SFA5TUNyQjg4RXB0cDZ2Mm5meC00V2tIbjVOUndSM21fNVAzeFl4R0prN1psbDdNN3k5cEJRUE81UkNaV1k4LWVXVVVJV3Zzc2JEWWtsNXFxZWRoS0JGc2ZvZlRmNGVVb3NORjhjZlI1WlFydUU?oc=5",
-                  "color": "#0d9488"
-                }
-              ],
-              "_sc": 2
-            },
-            {
-              "name": "Hadrian",
-              "connection": null,
-              "links": [
+                  "title": "Maker of Drone Boats Used in Iran War Will Open New Texas Shipyard",
+                  "source": "The New York Times",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWlPeDZuLWhvWkQ3X25rRUxSYmt6WkE3bjhKY1dsVS1OQ3R2WXpxdl9VWDN5S09CQndRUDVmVHZuTkM2MWpIMWhuQ3BnLWlwdnIyWWxCRkJRaXE4Y2hSMnFkRGtpSTY4b0R0ZzlqdG1HNGxkdlpKMnhERU1TNlZHSlRhd3U0TktxU01PRlBwbHhfcncxR3laMWNzc25zUzhmZTZNTlJMNUliZFV5OW9XZ0lXaw?oc=5",
+                  "color": "#65a30d"
+                },
                 {
-                  "title": "Hadrian Adds Veteran Security and Defense Leaders to Support Next Phase of Growth",
-                  "source": "AOL.com",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd19EdFJRYTZnbXZFeDJwbWhPOEtVS1pLQ2hMYUFCemVabUhCVFYxODJSLWFoMzhfVEVNNnRaMDZJWDdBM3A1QWEwa3EzbFBtTnc4ZUJvTzk3eGZaZFNMOHlYYlNuWF9oZUM0T2J1SzFyVnZhQmstNzNpMnJFMFNfN2Y1WmpaX1Zj?oc=5",
-                  "color": "#0891b2"
+                  "title": "\"Not Seen Since World War II\": New Texas Shipyard To Hire 10,000 Workers And Mass-Produce Drone Boats",
+                  "source": "Biztoc.com",
+                  "date": "Jul 16",
+                  "url": "https://biztoc.com/x/1d345efd6c38d491",
+                  "color": "#65a30d"
                 }
               ],
-              "_sc": 1
-            },
-            {
-              "name": "Shield AI",
-              "connection": null,
-              "links": [
-                {
-                  "title": "American-made technology guiding Ukraine's strikes into Russia",
-                  "source": "CBS News",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb1FJY0ZsOU5VeHpXeFdyNXJfSWhsUDdMLWViM0FnLTVqUTJYWWxUbENwd3JQcnlMcENuMFIyTHFEQTU2emlIUWxRajlVclJPaTE4VnhQQkxhWHg3OG9Tb3pGUFRUTExqVXlVWDZZTC1rSU5hY2VqOXJteUxGZ2FaY3dodnE4WjUtN3NPREZibUI0a1lBWFE?oc=5",
-                  "color": "#0d9488"
-                }
-              ],
-              "_sc": 1
+              "_sc": 3
             },
             {
               "name": "Skydio",
               "connection": null,
               "links": [
                 {
-                  "title": "Skydio crosses 1,000 drone Dock deployments in just one year",
-                  "source": "DroneDJ",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1vN2ZBUHpiM3RTYmNpdnZaTEFKazhObTFBOFQ3Q1dDWDhIbDNTSnNXUU5FdDVHTXIxYTFKNmxOWmlPUVZabVFEMmxXaUtpYWpfUnltWHk0YW1wRGtCOU5FWXBpLV93MzV5SjJuNi1kdTFjbHNReE9IM1dn?oc=5",
-                  "color": "#65a30d"
+                  "title": "A Leak of San Francisco Police Drone Footage Exposes the New Reality of Urban Surveillance",
+                  "source": "WIRED",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyYnVVMDM2TW1WazJXREJtZ0ZFdWxVWXUwVGJJZXpUR2hHYTU1b2pub1VfNmJGQUNzY3FjUTZpTGl3YjYwME9yd3BMa2JiaUdKWTkxQ1RVenJjeWgwMWFHdTU5cXQ0Y21wMXV5VU5qTEU?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "Minneapolis City Council rejects police drone contract with controversial Skydio",
+                  "source": "MPR News",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWwydGpsLVB4djl4cXZRRjJSaS14cmoxU0NNVkVhMVAzQWp3RFdNdktSME1EZW5DeFRhcmJrVDdSUkdDWUxQWEpDZjF3VGlFcU4wYjhkVk9QZG1NeWpNQ1dqYlc4RjdvcWJlLWdaeG0teWwxa0FDc09GRzl5QjcyT2o0dnFVbWU0ejAwQVVHY2xzR0x6bDZQWjdrS0lpTkFGWEpWeEx6Nm5ja2c?oc=5",
+                  "color": "#e11d48"
+                }
+              ],
+              "_sc": 2
+            },
+            {
+              "name": "Shield AI",
+              "connection": "Shield AI completed an autonomous electronic warfare flight test in partnership with L3Harris Technologies (NYSE: LHX) this week.",
+              "links": [
+                {
+                  "title": "L3Harris Technologies : and Shield AI Complete Autonomous Electronic Warfare Flight Test",
+                  "source": "marketscreener.com",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNeHQyN1hibkM5T0FFQVhRcVhxaV9vdTFHMDZ5RklaWklfY2FhVW1IRFVaa3RsNjJGYjhNV2gzTHo2bzZMSFRCbF9uZmFaak5NWXlqUWd5ZHFXMk9pc01xemh2UnYzQzNjTFJHT1dXRkxDSnZrYU5wcmstVzlIRVpfangxNEtwcE5Hd1A2QTFRODFkbFFUa1R2ZXVzdFg4QUlicWw4VTJDUk1acUFzVlhRQ3Z0bHVkMGVEVGY1NGhFUTV1T1p2XzlKb1BvdmJWQ3NBVDkwUW53?oc=5",
+                  "color": "#0d9488"
                 }
               ],
               "_sc": 1
@@ -482,136 +485,136 @@
         },
         {
           "name": "Fintech & Crypto",
-          "count": 5,
+          "count": 6,
           "companies": [
             {
-              "name": "Kalshi",
-              "connection": null,
-              "links": [
-                {
-                  "title": "Judge rejects Kalshi attempt to override New York state gambling laws",
-                  "source": "Ars Technica",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQY3FqRThaNndoTkRaYVVZNWYzOUZpSEtwS2w4Nl9xbF8td2hOenFwODRJanZQdlJWWVpxLWtCRFZPT1loUk1kOUNEcGQtU1Z2MVZfSEljbmJBUkxORlNEOTl3OS1wa194SEFhSVNvMHVhd3BLSnVUX0V0WkNhZF9TX3VrTG5PdTUxWVdKUVY0VV96bjBHTVBCcEQwSUhSWDRyWXFTV1kyeXhyaUpGbEdfTEpfVHlWZFliaXNF?oc=5",
-                  "color": "#e11d48"
-                },
-                {
-                  "title": "Kalshi Posts $31B June Record Amid World Cup Boom and Growing State Felony Bans",
-                  "source": "Tech Times",
-                  "date": "Jul 5",
-                  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaThzZkFFal9yUDJxVlJtMUFNWTNHamhGaFZMRGZKTVYxYm8yU1h2UVFiT2lodEN2VTJNOW5fWXBtYXhKZXRGNHdLcUM3M1FqR1g4dmUyMnI2SEF3WmNCRTVjSjUwS1R0eERvM002clZmU05oMDlOempQeXhxbmYzYnRQVnJJN1E0Y3YyVnNLbTkxa2dxNDROSVhWSURxY3FseUd4a2N2bWo0c1o3RWtTVEk2Zlc1Ri13YlFyN1hJRS1rSGhOOU5LUg?oc=5",
-                  "color": "#65a30d"
-                },
-                {
-                  "title": "EXCLUSIVE: Kalshi in talks with regulators to expand never-expiring derivatives to new areas",
-                  "source": "Reuters",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPckdxanhveWNkdHVKOVkxdU5wMk1OajVZLUtsSjI3QlJlN3B4NVBhTnhFOTFMd1hlNk5qYlV3NWttN2VxVXZPZDdseXlSXzB0bUdMVHE5RlQzSnJIbUs0bHdpdHluaVlIcFBtUEhaa0MxdDZoMEhfcDNVZFZIY041amNLTjJIRWhlS1phVVhMeElGUDVzQXlHTEdXUlRKa0FleHFRd3JiWDRUQ2FKV09HbkY2SGR4Y3hXbUdaRHhvSzdZbWs?oc=5",
-                  "color": "#e11d48"
-                },
-                {
-                  "title": "Michigan court sidelines Kalshi sports markets",
-                  "source": "Axios",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeF9fZU5UZWg0QXBMdlRSWElIdzRKNkowTWk3VE1WX0F3VzJ6MWRDeGVqZ2tmam9NVTMyYzByTnlxY0pONWMxYlhqYTlELUJWVll1V1F4OERENGlKSFlteHVJSU9lXzdkMnZyQVBJazkwQzZSU2NhNE9ZaXdXbnF1TDhLNjNnYnFyVjg3c2FuRl8zWTl2?oc=5",
-                  "color": "#e11d48"
-                }
-              ],
-              "_sc": 5
-            },
-            {
-              "name": "Kraken",
-              "connection": "Kraken partnered with Capewell to accomplish the world's first USV airdrop.",
-              "links": [
-                {
-                  "title": "Crypto exchange Kraken says its auditor quit after the SEC sued. Now it's suing the auditor.",
-                  "source": "Business Insider",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVhlRzVJOEpjN2JOd0RXQldlWDc0dldsT1FKamwwMkJ2T2hhR0pSR0ROY2Zka3VYTUpFTklTRndzSk1kWnp6MzBtMndhSGNXenpnSG11UHVTcF9kWFk2UWN2VWFuVHhSRjBrNldTOUJNcElKeFpoTm5RbXlPU281b1dyTTMxSXRHZ205bmRwaVBLTnNtSWxjcm5FcU9td2FXT0E?oc=5",
-                  "color": "#e11d48"
-                },
-                {
-                  "title": "Kraken Technology Group Closes Series B Round At Unicorn Valuation",
-                  "source": "Ocean News & Technology",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUllvUEFxcWQ0dmpJS25hTXdtNkkzOGc2Z3l2T1pETEtLNlIzTVhsNFA4ZVNwdlB3dzY2Sk94SW5WTWQ4ZXlHZzBQb1RVR043YkZzY0lORkpKbGxoYkJTRjFieGh4ckJwX21UV19mOXc4QXRtRS1SeGc2OUcxMERkaXE5TnNIOTBBd2trY1ZINkZuWmdsUXFhTk9ocF9UNGZ5dlJyck5nNFg?oc=5",
-                  "color": "#059669"
-                },
-                {
-                  "title": "Kraken leads with $400M in spot liquidity across MiCA exchanges",
-                  "source": "Crypto Briefing",
-                  "date": "Jul 9",
-                  "url": "https://cryptobriefing.com/kraken-leads-mica-spot-liquidity/",
-                  "color": "#65a30d"
-                },
-                {
-                  "title": "World’s first USV airdrop accomplished by Kraken and Capewell",
-                  "source": "navalnews.com",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQelhRR1BwOXRoWDVITFpNanBLWi1JYnVCSHR6VVdLWnhRa3ExMkZRaGF1dFJDMHpwTjJ4OWZpbnY0NzZNZXpzTkRoWEFsUl9kSEtCY1cyTVRxbXZza3RlTDRTa1FXa0ZpSmFkclFmTnAzaTFqd0hjV3VBaGs0eElncVhhd2RLZFdVMmhqTEdCUjgtclFJS0pZT2tENmZEYnpXNk81R2JTTVNNZw?oc=5",
-                  "color": "#0d9488"
-                }
-              ],
-              "_sc": 5
-            },
-            {
               "name": "Tether",
-              "connection": "Tether is testing stablecoin transfers with Hyundai units and Avalanche, involving publicly traded Hyundai.",
+              "connection": "Tether completed an enterprise treasury pilot with Hyundai, moving corporate funds cross-border on its USD₮ stablecoin this week.",
               "links": [
                 {
-                  "title": "Hyundai Units Test Stablecoin Transfer With Tether, Avalanche",
+                  "title": "Tether Freezes $131M in USDT Stablecoin in Iran-Linked Tron Wallets as Middle East Conflict Escalates",
                   "source": "Bitcoin Foundation",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc01TdVJlNUk1NVllRjFHX0w0dmQ1UU9JZ3R4d2R6UjFfNGFvaFVFWXVLTVVZSE1PRHVzNEE0S3dhS1NxZTlEbXpvcWVra3UzVXJ0QkswQVlRZDZ1QkxyX1lFWi1wMkVvRGJSdk50NzNEUThTd1ZmSHo0RmZrRXJ0OGVpaEkwdGZRMEVDSzE2SFRJMmNzX1V2b0NzRnp0aHYzUV93?oc=5",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hY21lSktXekMzN3B1X0JHS0NsMkZpb00yM3VGNk1yYnZEc21JN2c4Z1N2VWQtQnNXZEpCS2pvUUJseFF1YllITTBTRENmaG9FMWh3V3FnNk82ZnpkbGZ3S29aVnZwOUJPSTFFWFpFY1V6ellhN3c?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "US turns stablecoin issuer Tether into a financial weapon against Iran, freezing nearly $500 million",
+                  "source": "CryptoSlate",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPX2dJMFRQR2d5aFhhelVfVlRWX3ptdWo4azNwLVlKNnNUSFRKTG02ckowOGxtaUdfUjdTS0NUTEJpNTdXZVVpYzRYVFA2b3VQdHBQemdtZnQ0VjRKa1VxeDZocGhBenNHQjB3Z3RQTTNDU3UxMFRKV0luNWR4NlFtSXBCVkRka3VlcGRhVW4tLW9VQTlpcVdrTkpwZzhpOV95VWN2MjV1bWdzZW1OSDdCekJFUUxycXhuLTVYS1N0UnQ?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "Global Industrial Conglomerate Hyundai Completes Enterprise Treasury Pilot on Tether USD₮, Moving Corporate Funds Across Global Borders",
+                  "source": "Tether.io",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNOWJhcVpuUU9KajBxbW1WdkpPSGZIZGV3elNkSVFLM3ZzSzRHMTc1X3RuX2VtYTBQajJna2xOeDhFTTRpQ256R2c2M0JIMGhHUTU3bHBWUXN5NU96VVZuSnZjX25hZEtjMlJ0bkIyZmNQLW5ZTWdRR2k0aXNoR0xQNjZDSkJCaDh3SU1IWUVWUnZPTm1wSUVJUXJ4bmhsV2I5d2tOMFFSejV5Q2p3b0J6enFUNDFieENaUll1LVlFbGJOYUhnY2hJam9IUjBzTXQxdFMzVVo1YUhsSHpjcmM0X1I4R2VhTDMxMjFKT2JZaw?oc=5",
                   "color": "#0d9488"
                 },
                 {
-                  "title": "Tether Invests $20 Million in Brazil's Mercado Bitcoin as USDT Retreats From Europe",
-                  "source": "blockhead.co",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONzdiQ2lOT25qRWxmcVU3SFdDemU3ZnVudDMwWDBQVEJFQmxQQXZZR01fVkNDTEYwWmJ6Xy05QmowajdybnQ4UG9LLTQxQk9QM2s3aGV6YmJjSEFMbldzeGRGaWhjRXJsYVBfa25GTVVlQnFQLXNEcUZhallWWl80YTZIMWRNT2ZnUFBITUF3Y1U0aWJMU1h6ZTNrZk1mWXZxa2FNU1dkWnMtU084LUZEd29wSlZuMzV6QVE?oc=5",
+                  "title": "Tether CEO Paolo Ardoino reports 30 million new USDT wallets every quarter",
+                  "source": "Crypto Briefing",
+                  "date": "Jul 17",
+                  "url": "https://cryptobriefing.com/tether-usdt-30-million-wallets-quarterly-growth/",
+                  "color": "#65a30d"
+                }
+              ],
+              "_sc": 9
+            },
+            {
+              "name": "Kalshi",
+              "connection": "Kalshi entered a partnership with OpenAI to display its World Cup odds inside ChatGPT.",
+              "links": [
+                {
+                  "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
+                  "source": "The New York Times",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbHNEVm9GSWo0VjdPbHY5bmw5VTE4b1NyN1ZRT01aSkc3dkJGOG42VjltRTFZSWdrLUxuU1E2bXV6NUI2YmpRdXJlMjFZR3ZxaTR4VGdscEdVVy1QcXBBZ1B6VFpKMVc1Xy1MMjg2Y0dMNDZzcC1LTjk3Q18ybE56MDFVMkg1Rmo5LV8teVg0a3U?oc=5",
+                  "color": "#0d9488"
+                },
+                {
+                  "title": "Kalshi to allow bets on clinical trials, FDA decisions",
+                  "source": "Reuters",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObVRoRHYyMk9HNTJuZ2VIZ085LWZTaVhFWWZUS1JfOFhkTXFHMEtROGlienlyaWg1LWVVTk9iT3lLYktoYS1YLXVTRjdzS2oyS2RKZ1VSUS1sUldDWVNLa2NOV1ZybDYxU1EyTzJYZFZaLTVTZUtmVmRhNE1ybmFXMTJfSnZRMnFXYm85Mzk2OGlVakpTNFZRMlhtTl9VWkRwbHc?oc=5",
+                  "color": "#0d9488"
+                },
+                {
+                  "title": "Kalshi launches 'Pro' product for users trading multiple markets at same time, perpetual futures",
+                  "source": "CNBC",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMklfZ1ltckJCbXU3dTlYb2VYTWZZOTRjeVBRSHFCXzRVMjVBMXlHRzBual9WcXBuMElodUVyU2lOZXc4RFFFM0Q0LXhZaU5hSGxvTENaM0VqdExtQVRDd2w5a0dfQWNGby1yNXF1U2NSNEpzSkFUQnFwTmx4MGZRYUd6M0VmSlhURV9RdEJnXy1lQUxGTEp4NTA0Wnh6UGl1OGlBZE1DQ19UajZvQkZ4QUFnZnlZZFVKVFhsUGNYcmFKMXpva24tSWFB0gHPAUFVX3lxTE1xYm1TeTVacjZETHo0bU9QQWhpeTJqS3d4XzFiekl2MG05cHpPUXN1NlJOeGN1a296U2dXVG9CNE1lM2lXZG5PNXFNRnVWZVN0VXNsRUpULWRONUt0c1p0aW5ha2RIYWNtVlQxSmVFb25iN0VtTDlEWklFcGROdGFSNTNiWlRIUDVKa1otZ2JHaDg5bnhuU3l0dXdBTFlxQW1pcThoMjVnNnZpdUs1WktiWjhaWDN6Rm5UUEc4WFRHR21DbXZmWG1vdEx1ZlBmSQ?oc=5",
+                  "color": "#475569"
+                },
+                {
+                  "title": "Kalshi says it's not a sportsbook even as World Cup bets surge",
+                  "source": "NPR",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVFdrQTZqN01ObzNmNUptY2RCTmpFR2pYWlNzUXhqa3VrMmVpS3pMci1qN3RrUndBMkpMSjVqeVZ6c0dWRW01aE5NTkZqMFpDeWZYdWVyZ19mZ3NuSmFYVGlHMnRVb05uSFBRQmR2SmF5bUxYQ3N6ckFab2JZWEJWMGkwV1BUR09qa3MzdWxxcVJYYkFYbHYwM2YwRlNHNk14RHl5Y0VjaWJleEdYby1HeXE1b3E?oc=5",
+                  "color": "#e11d48"
+                }
+              ],
+              "_sc": 5
+            },
+            {
+              "name": "Stripe",
+              "connection": "Stripe, together with Advent, made an offer exceeding $53 billion to acquire public company PayPal (Nasdaq: PYPL) this week.",
+              "links": [
+                {
+                  "title": "EXCLUSIVE: Stripe, Advent offer to buy PayPal for more than $53 billion, sources say",
+                  "source": "Reuters",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeTJ6Wng1a0VaQXRFS3dXYml0Vk1TWTZEYWxOTElCNzJhNU5xamNacW0yczJVT3RZZ2oxcnE0VVhkTEYtS1FZWFIxZTJHNjNaXzVoci00aTNGcEFpTFRXcE1xaVA1cEZ1ZmFKZWRKcm1LcU0wUGZIRXJEMDdXaUM5ektPWUhaQU5mZmMxdWZIYTB3a2hqWlpfR3d3V0tIQWs0SmhKcVpuTVdfbS1VVEx2RjI5RXVkTFk?oc=5",
                   "color": "#7c3aed"
                 },
                 {
-                  "title": "Tether’s Former CIO Plans Sale of Stake in Stablecoin Giant",
-                  "source": "Bloomberg.com",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMUNEWTlHblEyMkNNRFRKN1ZlRjd2TEp1b2M1ZlNxQVN0VnRXUmxOS2VURE5KRnRSemR3bUpBTUpId19JSld3a3I0SUVCVmFkNE04WVBzX3F6Sy1vbXk2QWRSeWZ0Wm0xSFRXRF9FRlhiRjJkcXBxdHlHTTI1YnBIcVZkU2lLaV8zM2pDTE5fZmFvMGE5WnpQQ0FXb1NaNzNEaHZFVklrMHBPbWxpSGI0?oc=5",
-                  "color": "#4f46e5"
+                  "title": "PayPal board says $53B Stripe and Advent bid undervalues company",
+                  "source": "Crypto News",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWUlqRXBuTm9lMmcyeDl4NDB6dEdBcG9fWVhrV0tHaFVIei1lRnRSMlRTOWhzLXV2cF93bkVpV1RzdWViSE1qTEVtdGxuWmZjWFJpZWVkeEhEdUl1YkhQbVhKMUJBYVp1U0FYSzNOUXBkZjRkeWYxTEtseWFZVzVNSVBOQldEaFJMc0ViSA?oc=5",
+                  "color": "#7c3aed"
                 },
                 {
-                  "title": "Thailand’s SEC Approves Tether’s USDT and Circle’s USDC Stablecoins for Trading on Regulated Exchanges",
-                  "source": "CoinMarketCap",
-                  "date": "Jul 5",
-                  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM3owMEVBSjZuc1pSQk83VW11NU4yRFA2cUJXQ1BQbGNlT2cwRnZZVXFydldmVmpUYmtwekRxVjBlS3ZOLVcwaTRDMzFJZTZCR1Rpdm5iYW56cDZ4QlBfeUZrbVJPRUNfQnpfUzBvR1hGVjR6VTJFYk83UHNDT0tMLS1mSHNUV2hHU3lOOUd4SmNLWkZGc1U0T2Y2OG1URU9HUW5Ra1FET1NORkRTN1VvYkpBQ19SeXJvd05yN0NXV0pmWmYzRWRNYTJPNU9UTVBwZkJSd0ZHSWs?oc=5",
-                  "color": "#e11d48"
+                  "title": "Stripe is the most underrated—and influential—$159 billion company in the world",
+                  "source": "Fast Company",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMlkzak9OREFlU0ItcHRFNlpTRWhsYWstRHh6U1BrMjZVZWVjc3dBVkxFcF9BVDhCN1lpeUJ3NUZDdkw3UmZhN2NLcDFFYjRMcC1RdWU5M1NEYzFhSEc3YzRrYVFXTVFXUWx2dXg0VllQNFE5T1VfWEo1Y2VURi1fSWh2aUZSUmlBR0RHY29oZF9zcnpxa1NuRUZxcmZGMVFtZG5n?oc=5",
+                  "color": "#d97706"
+                },
+                {
+                  "title": "PayPal Is Working With Goldman, Evercore as Suitors Circle",
+                  "source": "Bloomberg.com",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbVU5TWhxeURKWXR1YnFsTXlDVVJicE1jeUhjcG85RWdqTGs5N1VyMDNmaEJtWmU4SFFtS2YybkZPdnc4b1VZY1hWWU9scHUwRkd3NEpaUXBGT25oa2Vobmk1UEpKUWYtYU9lY1gwTENVa3ZNQjNXU291YTgtWm9jS1lkY2luaUNmTmdfMklvcGMzVzhjZk1aX1RITjlVNFVGU2Ntd1g4dDBMNEZ6eV9lMGJR?oc=5",
+                  "color": "#7c3aed"
                 }
               ],
               "_sc": 4
             },
             {
-              "name": "Stripe",
-              "connection": "Stripe is reportedly a likely candidate to pilot Meta's revived stablecoin efforts.",
+              "name": "Kraken",
+              "connection": "Kraken partnered with Mastercard to roll out a crypto debit card in the UK and Europe.",
               "links": [
                 {
-                  "title": "Stripe challenges Circle with bank-backed Open USD stablecoin",
-                  "source": "TheBanker.com",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1WUXRxU29uV2RJYzRsWW1jLXZRaldVZ1g4QmE1VTEtWkM4b1N4WHZYZjR4MEVkUE1UWDJqRWU5ZlMwVnJKM3lfeHh1cEFIOHd3ZHdEYWJ5QXh2RGdsSVBQSXVKNEZrN25sMnRkRjVrancxcEVhVE51NS13?oc=5",
+                  "title": "Kraken Launches USD-Settled Crypto Options to Capture Institutional Demand",
+                  "source": "FF News",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTk9hWlZ3MmtzYkxmTmxtYWx3aDJ6WU1UOU05RDR1WjREa0Rpd09iLU5Palh1Z1hJNEJhblBHbnRxRXQ0Y0pkTnRUU19lSG16bzhrNUtXNDIwSGhCSEhlbTVvVUJRbm16OHV4LW1jZDZMblU1OWU2dWdHLXBmUnBMOW9icElHRzlQLV9mektyMVZneDVCdVhySm9MRzQ0Tjg?oc=5",
                   "color": "#0d9488"
                 },
                 {
-                  "title": "Meta Is Planning A Revival Of Its Stablecoin Efforts, Stripe Could Be A Likely Candidate For The Pilot: Report",
-                  "source": "Stocktwits",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQck84SjVjRlR6TFZlSjZRU1JVNFRkdW5WTW9Cc2dmTXFkcDFaNWlJMUhGM1d4RUNkcm8wNG80dWxETEJvQlEwajB4S3FVbkZsek5GY1NkZzlPaEgzRjMxcFJUbU1yaE44dEsxY0UxNzFvSGRlLTlPSUZqZ2VqM29VbEtraDNHcHBkU29tQXJPZTJpTzRPWV9NUUZaMmt0TE90M2I0Y3JMYmlVMXBZRnB3R1NmXzJKcGlPRU1KQmJRM0p1ak9GZkI0T1Vham1QUQ?oc=5",
+                  "title": "Financial winners and losers emerge from the 2026 World Cup, and crypto has a seat at the table",
+                  "source": "Crypto Briefing",
+                  "date": "Jul 17",
+                  "url": "https://cryptobriefing.com/2026-world-cup-financial-winners-losers-crypto/",
                   "color": "#0d9488"
                 },
                 {
-                  "title": "AI Agents Can Now Spend Real Money Autonomously: How Stripe Built the Payment Infrastructure",
-                  "source": "Tech Times",
-                  "date": "Jul 4",
-                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNUlVR3g5UVpUVmRaVTE1S3dYdFN1QnYtTHYxMDU0cUIwRlpiUlkzTTJ6UG0zQi1xMUUwUjgzc1JKVUFFUFYwaGp4ckJHZmpMUVdud25maktJT3YwVVRtNWpzTFNSU0w5TzhrUlVKOGlwLVJfemVNNGNFVGNzRXhiNWVhNWt6cFN2em16RW1kNUFkb3hHaF9lcGk2ODFQM2wzZWw3VTdUZVB5a0Rzb1Y1b0ZMVURjejhpT213Y2g5ME1MY3Y4R0ZvbDgza2h2a2IwSVlPdHhxMkx6UQ?oc=5",
+                  "title": "Kraken Institutional taps Upshift to build vaults that earn yield on idle bitcoin, ETH and stablecoins",
+                  "source": "The Block",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbUg5a2s3OC1oQ1hON2oyT2JrR19Za3lqWTRIZDA1WjN2YUk5YUtSNDJ4ZkRJLXl4aElQR1pSbkxsVTdUbGhmOE5xcXhpSlNuUEY5d2hjeEN6MXV6M3dTWjdwSGRHSGtsanFiYWpUQ1FVWXhsVWtZdm1NcjFFTVRjTzc3TF9samFzdXNWVFVhcXljdWY4emozb0doNHV4MXJ5WFhTcF9DdUpndXhxS0F2VDB2LWZJSExwQU8tRlh5Ry1SWjZhUDlpZjBRanJ1YUNKb2dV?oc=5",
                   "color": "#0d9488"
                 }
               ],
@@ -622,233 +625,156 @@
               "connection": null,
               "links": [
                 {
-                  "title": "Polymarket is in a high-stakes race to win back trust as it recommits to the US market",
-                  "source": "AP News",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSU5XX1kxMmlYZmhpQlA0cThrWUlBa0FSZ01PN0hmWG9FRUkwMzFBR0ljclJVaFhWdlc0T09FN2dBZkl0MFU3Vnh3a21RQk5lLXFVZUFkNGdYcGViVlNYdDdxM3hTckJzOGxRRWVTQS1COTNvWS1HOUZmWXhZM3Jwc3lHQkdmYU5sOUdpNmJzeTRDNm5LLThKb3BYWjJmWm11RGpz?oc=5",
+                  "title": "France blocks access to Polymarket website",
+                  "source": "Reuters",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOWFYYVd5enczTjZ6dDVnaTlWemJmVTRrS2FOTUdZWXR2Zmd1eHhNZ05VREhNb1hlZktlS0UwYkhkbWtxang4MUdWakpKakpkU2NadlAta0otOEc3N1lDLUVTanlVWm1qNjVMS3paTEQ1cEV5Nkg3a21DYUloSzNjd2hCc1ZwRkZ4OW5GMjE4YmpJNm9HVGtTWGZUU2pUeDJ4TFR2MEtlVDdUREFkRnc?oc=5",
                   "color": "#e11d48"
                 },
                 {
-                  "title": "Mexico’s World Cup ninth-place finish drove $268M in Polymarket trading volume",
-                  "source": "Crypto Briefing",
-                  "date": "Jul 8",
-                  "url": "https://cryptobriefing.com/mexico-world-cup-ninth-place-polymarket-268-million/",
-                  "color": "#65a30d"
+                  "title": "Polymarket Traders May Be Manipulating Crypto Bets, Study Says",
+                  "source": "Bloomberg.com",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOODZmblA4TXZMcG4tQTBhdU1tYUFUbDg3V04zbktOTXRjRl9PVEVhdjVIUlltWnJIcTd6UjhlUEFnSzZtTGZhenFzNFRYN1Rtd1JaYnBoaVVfdXdKOU1SSldIUFNIZU9laEZrSnlfSk5XTmtrVG9wY1V4TGhBRjZxX0pvUUdOQXlmZE5zRzBjWWpQcDJXYmoxVllmNXhZUUZvN2tIRW5XZXEtSU1tWnJFY3RR?oc=5",
+                  "color": "#e11d48"
                 }
               ],
               "_sc": 2
+            },
+            {
+              "name": "Deel",
+              "connection": null,
+              "links": [
+                {
+                  "title": "Deel Moves to Strike ‘Spy’ Witness in Rippling Lawsuit",
+                  "source": "Bloomberg.com",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWFRtcVlvbTZ0aWhsOUo0bE0zV1F5WFlYc25CQ3owY1dOOWtBVEQyOFczVXNkd09JNV9hQml3a1Fic3huazg3Yy1vd0M3N2dFNjh4c0VMM3VtLXNyTUhGODFUaTN1VW5nSl9CbUFQU3U2ZVkxalFuT0dHLThOMXVBaWFja2pLSjg2MkdHN0Zod25YdXNCNFZPcnh5V01vZUhXUmZLNm1wS3FZUjVhQ0NwZG9Fa2g?oc=5",
+                  "color": "#e11d48"
+                }
+              ],
+              "_sc": 1
             }
           ]
         },
         {
           "name": "Robotics & Hardware",
-          "count": 9,
+          "count": 5,
           "companies": [
             {
               "name": "Waymo",
               "connection": null,
               "links": [
                 {
-                  "title": "Waymo to start driverless rides in 4 more U.S. markets as expansion accelerates",
-                  "source": "CNBC",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNREdHcnhoWXg0NEMxX0RFand4eXJCU0x3NXlYR2dWREtCYXZTdGFwb00wNmEzM0RtZ0I4SlBRbjJPZFl2VzNwb2paMjZrYWRfSXR5ZkVBdDZLc2FvV25ZSWlOc29mUFR6UGtPQ2M3Wi1BRkY2dzFYczVtVzY1OG9QWUQtaDQtUTFuUzFuZkNsN1NYS05GclNWUkJQOWhkUV93dzh1VtIBqgFBVV95cUxOZHMyblJ2eXh2U3p3N3hfMmFGelZxNDVkaXRFMGtCOUFSX3J3TUxzbmh4aG54MTZPMGVkZmtLV2ZFdHJ5Wlk0UVlBT0FURjFxdFRBQ2ZRUk1WcUtWR1BOWUV4RlRwTmpFUUdtWWZ6TVZjMDRFM1VLWUhXMnhnNkJjbkVRV1FVSFVJRnJRMHVsSDBKWXgtSmpkNWJlUGlFU1R5eGxaZ1NWbl9xUQ?oc=5",
-                  "color": "#475569"
-                },
-                {
-                  "title": "Feds demand autonomous vehicle companies stop interfering with first responders | TechCrunch",
+                  "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
                   "source": "TechCrunch",
-                  "date": "Jul 8",
-                  "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeUE4bVVaYnRJNlFMUnpxd0RyUTFPY054YXpoSXRtLXFzcDZIZ0FzWnZmYlM5cXpjMmJ6V1prZzNoX2JhZ1hLME9hWVRFbkFRdV83enpMRHNxZkk4ajBkQ3pCbEFaNkJIcDlXbVVnOW9yckVwVWR5aWI2di1uZklUbjctMEdjZWQtVlVPcDM3ajdPZUZmQmxMRnpEby1BQzNGejVPYkU3TWVVeEVxWENv?oc=5",
                   "color": "#e11d48"
                 },
                 {
-                  "title": "Driverless rideshare company Waymo to soon begin autonomous rides in San Diego",
-                  "source": "KPBS",
-                  "date": "Jul 9",
-                  "url": "https://www.kpbs.org/news/science-technology/2026/07/08/driverless-rideshare-company-waymo-to-soon-begin-autonomous-rides-in-san-diego",
-                  "color": "#475569"
+                  "title": "Waymo called on the carpet for emergency scene responses",
+                  "source": "Axios",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XOFoyT1NYZkdyTE5iNExjRVUxdWZrRzU3aURGTkRfd3F4cHVTRzFvX05qUXYwdXpkVUhNSFNaSTlRaVZtVU9tSmlQdDh6NXdZeGdiY1JwbkhKSXRSb1B4YWFiZFNrcmo5WWJodHEzd2tOdjFJdWFNZmozSQ?oc=5",
+                  "color": "#e11d48"
                 },
                 {
-                  "title": "Waymo will go autonomous in Denver later this month",
-                  "source": "Denverite",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5BQnQ2NzFnZmQzQzRGd0FUV1AxVXlSWU1rWUdQc1N3Q1pISktGRGNOS1A5LUNlUV9JcHBIUmpLN05zZk0wc21fLWVVMUE4S1hCRkkySVAxd29XajZHVVdzTWpPcjFGQThRSEFPVXRndDBJQQ?oc=5",
-                  "color": "#475569"
+                  "title": "US Aims to Set Guardrails for Autonomous Vehicle Behavior",
+                  "source": "Insurance Journal",
+                  "date": "Jul 17",
+                  "url": "https://www.insurancejournal.com/news/national/2026/07/17/877969.htm",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "DC Teamsters, Labor Coalition Demand City Council Reject Anti-Worker Waymo Bill",
+                  "source": "International Brotherhood of Teamsters",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVzJrUWN2R3VlZGNqMGctLUMwWlgzZXZGUTJjdVo4TnZsVXZacUY1XzJMY3piaV9GUlMxSFR2RHZGeUNkTTdkSFBZWnF6ekRDR0ZueWZPR0IxUTVTYUk1a3BxZ0RHV0VCWTA1cXlZVXl0MDZNb181WmF0ZFZWM1ZRNGhaYmh4bFQ4WFl2ZS1jTmY1YXNDaGk0VDg5RDByejlsNU1idDFDQTNTZ0Nz?oc=5",
+                  "color": "#e11d48"
                 }
               ],
-              "_sc": 5
+              "_sc": 4
             },
             {
-              "name": "Figure AI",
-              "connection": "Figure AI deployed its Figure 03 humanoid robot at BMW Group's factory operations following prior testing.",
+              "name": "Agility Robotics",
+              "connection": "Agility Robotics is going public via a business combination with SPAC Churchill Capital Corp XI (which received a $9 million stake from Foxconn) through a Form S-4 draft registration.",
               "links": [
                 {
-                  "title": "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon",
-                  "source": "TechCrunch",
-                  "date": "Jul 6",
-                  "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+                  "title": "Agility Robotics and Churchill Capital Corp XI Announce Confidential Submission of Draft Registration Statement on Form S-4 in Connection with Proposed Business Combination",
+                  "source": "Business Wire",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQdkp3X0p1YjhsRm9yLUtlZ3NRWWhqUUNZRk5mLUwxcHMtR1RDb2h2bF9JR051V1ZOS0pjU215Wlpncm90eG1IdHlFanRHOWVJNzJMaEgyWWg5NlRka1pMUUZZNENNLUY2VVJHTEtxVTBKbVlQSHNyamtiN29CTXdka2RnbTRrU2t4SnNiZElqNWN2T2FsRkNKdFBxTzI1dGE5ZW9fR1hrdlpsUDJOMUp1NEZPTWNCdkNVY2RwRmdtbVoyb1Z6R0ZaTnNxLXNESWV3LW5uQUFIanVUTjZRNDhvM2w0T1lxTWxfVExRWWFIUV9vU0JSYWt5bHFmLUVqUS1jRXFqZVBOZUNLLWYxTE1RUXQ4cG93Wnl0aU5GRkEySTdFc2lYZEpxNTlKbjJsNU44b3JCYWdxVkN4WGFYVEJ2MmRvVnI0LXYyLXFsNFNR?oc=5",
                   "color": "#059669"
                 },
                 {
-                  "title": "Agility Robotics is going public at $2.5B while Figure AI sits at $39B on less proven ground — and the gap between those two numbers is the entire humanoid robotics thesis in one line",
-                  "source": "Silicon Canals",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQdjdfLTBlbU4zUnJHSDRSWTU0R0R6STNDdVJET3hHWVJpR25PT2dYQnJzYWRna1pQeVdKYlRkZDRvTnlEWkY1NHA4bnpnblRWNVJFNHhUZUNQZktYUlJncTZNQmI3eTRjc2REc2VDOWdkSE93ZHRIcW1feGJUbDV5WGFEeTgwVjlURWF0bzV5SGxlZWZ4NWJZbTlianVqNjdTYWlHWFNyQy04eW81cGROQ3R2ZGJ4Z3RZYVh3b2l3NlZEQXlKZjFaN3FxVEdsWV9lNkp3d2R2ZVRGN19LRWpLWlNNLV9TYkNxMjMtSXEzUlJlbWJtZmVUZWw4T3Q5Q0s4cnZVbmhCcjVWcXpsYld6aVBCQmh6ZlNOZXlIVUJTa05aVVJLT3IwOTlKY0dNQ2RUZGF5TWVn?oc=5",
-                  "color": "#d97706"
-                },
-                {
-                  "title": "BMW Group deploys Figure 03 humanoid after tests with previous version",
-                  "source": "Moomoo",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZkl2SVFTQXE1ZHdSdkNvSV9QU2J3R1Q4LTlEYVkzV2hEQmZ0V1R5c0N6WWk2QTdXQVdGVHdYalVSS2JNM2Z1cVBMRlotU3R0LWZYVEVWdGl4bWNtVktuUTE3SmszNHduWm1nek05eWdBbXZuN0FDMWI3VGFlZ0pEcGI3MWZGcE1UcExwNU5fZ0NtMzRHaGdBSTFKczdCbkZHdE5OOUJsd3Z2dFNvWnhjaFFqOUlmalE?oc=5",
-                  "color": "#0d9488"
-                },
-                {
-                  "title": "BMW’s Figure 03 Humanoid Robot Could Change Factory Logistics Forever",
-                  "source": "Bitrebels.com",
-                  "date": "Jul 4",
-                  "url": "https://bitrebels.com/technology/bmws-figure-03-humanoid-robot-could-change-factory-logistics-forever/",
-                  "color": "#0d9488"
-                }
-              ],
-              "_sc": 4
-            },
-            {
-              "name": "Wayve",
-              "connection": "Wayve entered an autonomous driving partnership with public company Uber, and its employees sold shares via a sale on the London Stock Exchange's Pisces Exchange managed by Crowdcube.",
-              "links": [
-                {
-                  "title": "Wayve Staff Sold Stock at 10% Discount on LSE’s Pisces Exchange",
-                  "source": "Bloomberg.com",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNN1Rtd01fMXpETzA2YlBKcEhkaVZQMm45cjZGb2JobnUya3BmVHpVMDVNVi1OMXlBVnFTODRXbE50X1FXcVZGcUFaUUVCNFpULXlWUlZpZndmTFZ6a1VNOUpCTjhpRUQwM2FJT2FETjNNTTdrR3VVRlZHSjB0SVY5U0E2UWI1YnZkaHItMEZyOXRselNxbEdRRUV6RFF6Qm9fci00Y1VpQzJjUWNKaGVoV0gtaw?oc=5",
-                  "color": "#0284c7"
-                },
-                {
-                  "title": "Wayve employees cash in shares worth $85m",
-                  "source": "Electronics Weekly",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOekE0NXE3LWpUVVlTcjRuOVlNb2FvS2ZVWktxNzNidkFFakVlSWRxX2lQcUJ2WE9ETEMxRGlmUURIWk9KcUV3anhXN0NQTUFxU09tc3hrNXIzQ2VkajJRaUtmNl9ZTFZnbFAxQVdYd25LTkxTYmJFNjlGQzdhOXFnVVMzNTBfalFHV3lWcEFyRHkyTXJFOHlmM3o0ODl4UQ?oc=5",
-                  "color": "#0284c7"
-                },
-                {
-                  "title": "Crowdcube Manages Landmark $85m Wayve Employee Share Sale on London Stock Exchange",
-                  "source": "FF News",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWmRxTkNFY1R4Mml5ZnRWSWI3b1ZnT21RX0hocWhjcmMxaFVRS1VzNjZsZkN6MzhFX2xYV2VNWGpib0tLWVhXdElhT0JoSXJPNnhpTVd3Q25VZEt1cU9uYWpzMXZycWt2U3VsbWVyZkdYdkdyaUU2cEVmcHJnRDJtZzRZNHJTbThLZDZOZkJ3dGs2NVlNZ1lYdDFualdxLUVETjlHak9HVnc?oc=5",
-                  "color": "#0284c7"
-                },
-                {
-                  "title": "Makes a Bold Autonomous Driving Move With Uber and Wayve",
-                  "source": "Biztoc.com",
-                  "date": "Jul 6",
-                  "url": "https://biztoc.com/x/730e5298d8afc844",
-                  "color": "#0d9488"
-                }
-              ],
-              "_sc": 4
-            },
-            {
-              "name": "Neuralink",
-              "connection": null,
-              "links": [
-                {
-                  "title": "Musk's Neuralink Achieves World's First Case, Ushering in Minimally Invasive Brain-Computer Interface Era",
-                  "source": "36 Kr",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iT3FtbXFxU3NxLWhjTGU5M0tHOFA1QzFRSTdaejJZZnFKTk9pSWVXaGdBbFBadlF3c0NTX0hvU2lUV2ZTYXlfMGdLRDhBRC1NdzNV?oc=5",
+                  "title": "Agility Robotics plants its flag in Tesla’s backyard",
+                  "source": "TechCrunch",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEdxeXF0UTJXYk1zTll3VkFHRGxnbFJQSjF3a2NvZ3NUMG4zMUZBMzFWcElzOHdzTHd0cGZudUo3VjdqM09lckJ0Z3cxeXNOd2g0OV8xYU14MmREUFE0WWhJU0RKN3NVQmpFcGJUVGVXY3ZHSHM4VEZDSVplUXY3UWpmLXA1eWJnRzA4SzRjQQ?oc=5",
                   "color": "#65a30d"
                 },
                 {
-                  "title": "Neuralink tests brain implant approach that leaves protective layer intact",
-                  "source": "ALS News Today",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdEpXazdLcjN1ZTY4TUVLWUtnSkNvUk9TcnJWcUJHLTc0NG9MSEo3REN2VXFZZS12VGIyVGhHZ1hoVnBiUkFPSGFfMUh6eVpEbHpzeklKcXFXZEpKQTNhcllBTXlxMGpEUUNsNVhudDJjVURScDNxcjg3MVlRSE44MkVvd3RVSDBHbHM3Q3hVdHlHWF9EekE?oc=5",
-                  "color": "#65a30d"
-                },
-                {
-                  "title": "China pulls ahead of Elon Musk’s Neuralink with world’s first commercial brain implant",
-                  "source": "Business News Nigeria",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUWlueHpTdm1uMWVpakFnUVh4WERYSFBrU2JiNkR4UEpZMWFkLTdHLXYteXJhZVhfOFlUckRjdVZyR181TVFrYmtLOTlJazBWbVRLRE92bTJrdUpaRG1qTjJEdm1ZMGJJX2hzVXBLS2c1N0tDTXcxUUszSjdqM084bmRkRk5IZVN1c1hrclIzTzJSY3g3SnFWbmFZUkZTaFVUNW5Ec3UxTDlOMkpvTVpsMmJTeUxJY3plVGxUUWNVQ3FZZkYwMVE?oc=5",
-                  "color": "#475569"
+                  "title": "Foxconn deepens humanoid robotics bet with US$9 million stake in Agility-linked SPAC",
+                  "source": "Digitimes",
+                  "date": "Jul 16",
+                  "url": "https://www.digitimes.com/news/a20260716PD213/foxconn-robotics-spac-investment-robot.html",
+                  "color": "#059669"
                 }
               ],
               "_sc": 3
             },
             {
-              "name": "Tensordyne",
-              "connection": null,
+              "name": "Wayve",
+              "connection": "Wayve partnered with public companies Stellantis and Uber (and separately Nissan) to scale robotaxis globally.",
               "links": [
                 {
-                  "title": "Tensordyne Positions Napier AI Inference System as Cost-Efficient Performance Play",
-                  "source": "TipRanks",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdndQVGMxSUYyd2RGcWplWHd3ak8zc3d2QnJrd2lOQndvNnA2N1Bhc0NRdmR6SFhSV3VXNEZuaXNxWkhXTmpCak1QVzJKMDgzMlFoU29IbmhyT0xvekJ6NDZLUXpHQzFzZ0x4dzZQbGlhb3dETTVQNzJKZ1doZi1GR3hLVjVKRUM4YWZpbW5iYWRacEVSdVd5NWcwbEVZRE94SmxLaTJvU0c3Y1VFNHlPOF9FVGRlbVNwUkFEY2tIOXVqclhqT2JRMExn?oc=5",
-                  "color": "#65a30d"
+                  "title": "Stellantis, Wayve, and Uber Partner to Scale Robotaxis Globally",
+                  "source": "The Auto Channel",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVFRsSWhtdU8xaHJMWnd5Wkc0MW9jR0RwZ0hKdHU1QkJLaGpDdU5jTUtHWTUtaDVKVS1SV0ZIdWR1ejVDMjNHOVZRb1R5ejBKSldlNHJ3NlZJRnVQenlpQnVqZ0VVVHdjdm5yS1h3VGxuVEpBbnFBMno1Z2l2NjVMTDdTMEQ5Yk1SZDBJNm12bTdORk5iakZVRUlJMWhNVnQ4eEFJeTN6RUVvVjNpX1VqNTM4M0paeG1kbDEtYWRn?oc=5",
+                  "color": "#0d9488"
                 },
                 {
-                  "title": "Tensordyne targets AI inference market with logarithmic math and Juniper-derived rack architecture",
-                  "source": "SiliconANGLE News",
-                  "date": "Jul 8",
-                  "url": "https://siliconangle.com/2026/07/08/logarithmic-math-accelerates-enterprise-ai-inference-raisesummit/",
-                  "color": "#65a30d"
+                  "title": "Leaf it alone: Inside Nissan's self-driving Tokyo taxi",
+                  "source": "Autocar",
+                  "date": "Jul 14",
+                  "url": "https://www.autocar.co.uk/car-news/technology/leaf-it-alone-inside-nissans-self-driving-tokyo-taxi",
+                  "color": "#0d9488"
+                },
+                {
+                  "title": "Crowdcube Had Exclusive On Sell Side For Shares Of Wayve Under PISCES",
+                  "source": "Crowdfund Insider",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYlZ1N1A0b1VoSDYxRVk0WWZvUTVNZkZMY1VfRHc1cGV3cFFIOHRxdmwzemhqb3lieTFUS3NadTZ0VnJKU3ZteVhQdjhUcXAzR2NVdWRBSmFhWlBDSUV1a01kV0JGSnJ0ZFZNYzZYQko5aXlEVXViWmZOdm1sOUhQNi1mWWRuU0RERW96MTdGa0RIR2pwbHBwRlFHM2J3ME5iY3g3czV0dEZObFBMdFpwelFqY1RNcFpJcXc?oc=5",
+                  "color": "#0284c7"
                 }
               ],
-              "_sc": 2
+              "_sc": 3
             },
             {
-              "name": "1X Technologies",
-              "connection": null,
+              "name": "Figure AI",
+              "connection": "Figure AI partnered with BMW Group to deploy its Figure 03 humanoid robots in BMW's production operations.",
               "links": [
                 {
-                  "title": "Human-Level Hands? 1X Just Gave Humanoid Robot Neo Something Close",
-                  "source": "Forbes",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaDhHbzRZbl8zVkdnZVFFdk54LWxVVHdDaXVuVVpRR1FCVmFQeEpCM3VQa0lyLWVsdWY1clhwNkdSUVBaUkFzOE53RDM1TmJHd2NJZ3VkUHZMNkozelJXb0VMemZIYW5LUWRodnNJMzdFS2RlWjV3cG1FVlBJdWpRVUVPUTU1dmRPbjJwSUVJMU1lYnRCanlRYlIxbmJTeFY5NzE4c1pWODh6UTVlWFBHRklzQmNOMjhVNGQ0?oc=5",
-                  "color": "#65a30d"
-                }
-              ],
-              "_sc": 1
-            },
-            {
-              "name": "Agility Robotics",
-              "connection": null,
-              "links": [
-                {
-                  "title": "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon",
-                  "source": "TechCrunch",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVnZ0b1ZINm9iN2hoTlNxQzFOcVF4Ym0wT2ZKcWRENzVNeGdkZXVPVjB6Q1VXT3NMU3NITG94aDhZM2loNC0zZ3JtN1RNbHMwLUg1Ui1US3daRkRxQk1oZjItNndsWjhES1h2UG1RS0s2WnpBT29KcTlkWkFnVU5LR1NBeUdsend2SG5kWWUxT19GNi1sQklITGY0MmRhc3VTdkpjQ2hOQ1d2WDMwaGZQTWNzLV9sZEVRNWlXaE52NHlaVEhXZk83X2pHUE5ZZUk5Sm9pYm5LVWZ0Zw?oc=5",
-                  "color": "#059669"
-                }
-              ],
-              "_sc": 1
-            },
-            {
-              "name": "Apptronik",
-              "connection": "Apptronik, backed by Google, unveiled its Apollo 2 humanoid robot this week.",
-              "links": [
-                {
-                  "title": "Apptronik Opens Robot Park for Humanoid Robot Training",
-                  "source": "ARC Advisory",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNGdFVW5JYlBSUHB6TGRrdm16M0hWSFc3THRycUZ5MVFPSThLY1lMbEtHVzVhczhzaS14Ym5LUmxrbE5tczl2NEF4T0hzcXVNNWI2REE2QUY1V2xoano1Vmc4Z1dwU1ZpTjdOSTZvei11LXFFYl9WUzA5V01RNHBVV0dZNXU?oc=5",
-                  "color": "#65a30d"
+                  "title": "BMW Group advances Physical AI use in production with Figure 03 humanoid robots",
+                  "source": "repairerdrivennews.com",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdjVYbURZZFNBQUMyd0NsNGdUUUpOYTZteTFtcmxsbGpPeVpqcWVTbUw2OENuekxSVVlqRFc1TjRwVFMwUnhHRklmTVVmU3NEN1VTSE5WdGR1cDRLT0ZWWS1GU0lJMk83V3hwejhZdTJ1V0w2S1g3MGczeHpVZVFNVjhqRTMwcnRuX3N4TXhPdUJTcVpQb0Q4eFpObDEzSVZNa3dRdS1kRkt3bHF0ZDdkQ1JfaDZoUjFHM2ZIUXhIMVBXUGpv?oc=5",
+                  "color": "#0d9488"
                 }
               ],
               "_sc": 1
             },
             {
               "name": "Tenstorrent",
-              "connection": "Tenstorrent is in early talks to be acquired by public company Qualcomm in an $8-10 billion AI chip deal.",
+              "connection": "Tenstorrent drew takeover interest from Intel (Nasdaq: INTC) and Qualcomm (Nasdaq: QCOM), with Qualcomm reportedly in early acquisition talks this week.",
               "links": [
                 {
-                  "title": "Qualcomm in Early Talks to Buy Tenstorrent for $8-10 Billion AI Chip Deal",
-                  "source": "iNews Zoombangla",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd0hTZnRxanM3NmM2R20wZlJVOXdCODZLTVdkOEp4Q3l4Zm8xZnJ6c3dkNVBaa1lrakE4aFdXQ0t4NHRMakk1WEdhQlM2aEpiWUVjN3V3R0RpbU81bjFYMnhlTl9Iak55Y2d0T1htR1hRaXR5Q2VJYkFqdWFRc3hLRWdYc04?oc=5",
+                  "title": "$QCOM Qualcomm is in early talks to acquire AI chip startup",
+                  "source": "KuCoin",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10dE9xWmI2VDRjNnM5NTF6Q1RjOGdRSkJtUEZ0Q3MxV0RvQUdHWm9UYzhkYXRoYVJsQU1CMzFhRVZwaUdESmtyQlBYRlN1a0dRazZ3bGhjVUhfZHdUYkc4TFAxSmtsR3h6cjdnVnh2eUF5Zw?oc=5",
                   "color": "#7c3aed"
                 }
               ],
@@ -862,86 +788,121 @@
           "companies": [
             {
               "name": "Crusoe Energy",
-              "connection": "Crusoe Energy powers Meta's AI infrastructure as it looks to raise $30B.",
-              "links": [
-                {
-                  "title": "This Ex-Bitcoin Miner Now Powers Meta's AI — And Is Looking To Raise $30B",
-                  "source": "Stocktwits",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYTJRZTNTQ1NZaHUwdUp3TExhZGpYYWNDRXpyMHZPV3hzUUYwUG1HRnZId0dsVzdDWklrZVFEYWVvMlhZZ1ppVmpmTjJQLTZRTktNZ1hFRG1GSDVvQ2MwZFg2RjZQclUtRkV6bFpFYTREbHJkSE1WY1huN0JkVFEtWExmalZrVHU4TDBZLWVjb1psT1FDMzkzVlNEbDlxN1VsVTcxMnpSRHF0M2JFU3V3Mk1TcUx0WV92d1E?oc=5",
-                  "color": "#059669"
-                }
-              ],
-              "_sc": 1
-            },
-            {
-              "name": "Radiant Nuclear",
               "connection": null,
               "links": [
                 {
-                  "title": "Four companies reach DOE-authorized nuclear criticality by the July 4 deadline set under Trump's Executive Order 14301",
-                  "source": "Energies Media",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9lVmRQcXNscWpoaXllZUo0aVBsNHN4ak91VEhxNmtHVldidWZQTkR0TDd1VUNoNGtMSURQb1dqemhQeFdTWk95ZGd6MUIydGVGdHFmb2JSbG91bE91MWFBZ0kwTUgtSHl3dU9wVG1qcG5FLS1iZnBCQg?oc=5",
-                  "color": "#65a30d"
-                }
-              ],
-              "_sc": 1
-            }
-          ]
-        },
-        {
-          "name": "Social & Gaming",
-          "count": 3,
-          "companies": [
-            {
-              "name": "ByteDance",
-              "connection": null,
-              "links": [
-                {
-                  "title": "China Weighs Reversing Its Own NVIDIA Ban, May Let Alibaba, ByteDance & Others Buy 200,000 H200 Chips",
-                  "source": "Wccftech",
-                  "date": "Jul 8",
-                  "url": "https://wccftech.com/china-weighs-reversing-its-own-nvidia-ban-may-let-alibaba-bytedance-others-buy-200000-h200-chips/",
-                  "color": "#e11d48"
+                  "title": "Crusoe and Lancium Announce 1.0 Gigawatt AI Data Center Campus in Childress, Texas",
+                  "source": "Crusoe",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZnVObWt2czZJdDlvOGdfSWxRS0hRTFZUOWU0M0Z0cVBnRGEyMjhVazFqSGtIU0pCWVdhQmkzdWtsTlpURnRlRDk0azcyQldXMGpXbXZKeGtyaUEwZ1k4WEZENnRsd1RPTllta3dycFRvc1lnOUVCeElsTVQ5N19QalJ6d2JsQlM2MVNtdzZfWXVwNHg2d2E1OFM5alV6bEZQa0drMFozSXZSaGdQVC01d3ZTVC1JOHc3TVZKNw?oc=5",
+                  "color": "#0d9488"
                 },
                 {
-                  "title": "ByteDance, Alibaba Pull AI Companions as Beijing Tightens Rules",
-                  "source": "Bloomberg.com",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVl2OGsxX0V2X245T0NnZ2JsT0YwRXJmYVhtcGpyQTNPVVp0QlF3eFdYcEFEdDhNMlF5TWd3V1FqNkZ1SlZoa3J2QktYTHp2ejFaMU80UlUxUEc4YTFQdlJ6UzhlNEtIYjFzaVdGcWJieTVRRXRzSGNicXBvRHdxN3llNWhBMDRfd0txMVdkZk5WTFdsc3BZVlZTZXVVRnRsMHIxX2gyaG9kQnBGSm5ZbnhxOA?oc=5",
+                  "title": "Leon County commissioners reject initial tax break application for Crusoe Technologies data center",
+                  "source": "KXXV",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUi15RDRBN1ZaOThmMURDZkxpM2didEc3bXQySi1QVFFrT0VSTGtRR2hIZElQaE8xQVdGU0tHUG1ZbVEwMHJVOTJzVXhuUk1CRlgweXdZUU1uMDNsanBZT2RUNXhUMXl3VVM5Q3BuNV9DRHNrRV92UnFkR0Z2Q3hrLUE0blU4dklBdnJ3TGh1eUVxNlNXczNUSVhUS09sTi0zdXNwMmxYZzFnNjFHekhlRUtPYnI2Q0NFMjc0dGdMcUZQSjRlYlFNUUdxd3dnaWcwVHFjN3pQYmFwZ3NZV1NqSG9LenBhTU1YV3dGaEhCemNuUQ?oc=5",
                   "color": "#e11d48"
                 }
               ],
               "_sc": 2
             },
             {
-              "name": "Discord",
+              "name": "Radiant Nuclear",
               "connection": null,
               "links": [
                 {
-                  "title": "What Betting Markets Really Think About the Stripe, Discord, and Anduril IPOs",
-                  "source": "24/7 Wall St.",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNFo0dXhLRnViaUVyVEpMMDJCZXpvclplUWVyMkh5cXRLeGE2eHdYSTNqakxnM3hVSGNmcTk0ZVZZYjN4NkZ1QW82dkx1S2JZZFlTb2ZCYzNfdjJsLVliVkdRZEtOSENOZVVTUVQzMVlBcEt6Z0NpUWtvUmc3M2EzdjRhNUdXakFYNjk3VHd6bVFBZFVLYWVyZmlQTWZMNHdQMktCZVRoYjl2UWNtZDNkME4zdDNhQ2EwT0Y0?oc=5",
-                  "color": "#059669"
+                  "title": "DOE selects first companies for nuclear launch pad -- ANS / Nuclear Newswire",
+                  "source": "American Nuclear Society -- ANS",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObHExV05RTWJXaUxsMTRxeGx4c0h2WnJjVkppaEFDX0N5UDNUSmtfMnZ4WUtCX0tWLWNvQzhMU1RtMHhrRHpNRlhuck56U2ZuaExpUGd4elkyVV80UFgzQjNsRzl2SFdXUTkydHhtY3IyVTNjMGxuVjFMY0tpTmw1Z0VYT1pxdmRsWkxuLWk3X1FNVG8?oc=5",
+                  "color": "#0d9488"
+                },
+                {
+                  "title": "America's next nuclear reactor fits inside a standard shipping container and moves by road, rail, sea or air, a 1-megawatt machine with no water anywhere in its system that runs five years on one fuel load — and a Tennessee factory wants to build 50 a year",
+                  "source": "Autonocion.com",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KYnNCWEFGdl9hYnQxbjBmeU52eVBJR01EaFRSOENMZC1aaUY0WTZ0QnhpekVPTDBQWm1Yc3RDYUU3cC1aMzFLOU42X3lmM1hSUVBOTjBNYzlNbmtONzhVV0wxb0RKMDZXczBB?oc=5",
+                  "color": "#65a30d"
                 }
               ],
-              "_sc": 1
+              "_sc": 2
+            }
+          ]
+        },
+        {
+          "name": "Social & Gaming",
+          "count": 2,
+          "companies": [
+            {
+              "name": "ByteDance",
+              "connection": "ByteDance gained access to Nvidia's H200 Hopper AI chips after the US government eased restrictions.",
+              "links": [
+                {
+                  "title": "China orders companies to discontinue AI companion features, reshaping the tech landscape",
+                  "source": "Crypto Briefing",
+                  "date": "Jul 17",
+                  "url": "https://cryptobriefing.com/china-bans-ai-companion-features/",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "Primavera Seeks to Sell Shares in ByteDance, Ant to New Fund",
+                  "source": "Bloomberg.com",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWGpTb1BHbUxKSVdLSTYzUFJYcGNvb1NadF81SkV3NFpZR0Vtak5kZDlFZEN4bVNoNzJpaXQ2UDZDbnVIbFFHc2ZzVnAxWUZjVmlpb0IzLUwzRUtMR1g0U1hQZ2M4TGMySnpZdVJUdzFTRlVOdGxrMFdJb3FaU1VMT09OUV9YbVp6c2pZcHNhTHFNeElwUF90dmNWbjVFYVc5eVhfU2F0MFNrV3RUM2NR?oc=5",
+                  "color": "#0284c7"
+                },
+                {
+                  "title": "China AI Companion Law Takes Effect: Doubao and Qwen Shut Down, Millions Lose Chat Data",
+                  "source": "Tech Times",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPRjRFbVpYaVlycHRmTHZUT2x6SXJaN0NXVUhSSW5jc3hFbXJGRlNJYzRNWldUc0gwTDdmYkVTVnNTVUhhei1OaWpSbF9wRHhHOWxGLUtIUUI4UllTVjFQUVU1b0pBbjI4aGVuekV2ZkhvTmFaLW9IX0F1MlBNbTRhRnlIWkQ3bmNRalpVY09sOW13TVZ1WEdfRGY3aEhZV2I2TXdkaDVDWGdxVDBNNlFqVzgtWXgzYzE2d2MzakRjTVlpc1doNGRGSWgyOXExVnU2U0E?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "ByteDance Enters Physical AI Arena: Unlocking the Second Wave of the Tech Industry Feast",
+                  "source": "36Kr",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3NW1xaS1hem1RMERiR2JiVlZpc1F6RTBRSWRoMFlOUnlJT2NBSVZydFJzdi1JaVVxNGUxbXh2RE9sMzlLeGd0T1FDQ3hkZVU3bEN3?oc=5",
+                  "color": "#475569"
+                }
+              ],
+              "_sc": 6
             },
             {
               "name": "Epic Games",
-              "connection": "Apple asked a judge to pause its litigation with Epic Games pending Supreme Court review.",
+              "connection": "Epic Games is engaged in ongoing antitrust litigation against Google (over Google Play app store terms) and Apple this week.",
               "links": [
                 {
-                  "title": "Apple asks judge to pause Epic Games case during Supreme Court review",
+                  "title": "Google Will Allow Third-Party App Stores to Be Installed Directly Through Google Play",
+                  "source": "SFG Media",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40OEViUWJFM0puR3RKd3lwVXVEMVMzUG1EX3NXR3N6YzBTaXQxRjhaTU5MdGdBU3Z5TEhJYUdkSVhkRkZDY2FEMVpEUWppQlJxUkt1NXpsOWpYTG5yN3c1THM0dlJuTzN3VFE?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "Epic v. Google: everything we learned in Fortnite court",
+                  "source": "The Verge",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZWN1VjZ6aGp3Ym5iWjRsSTh1VHRzZGhyQ2dLSGI0NHc3WUU1ay1ybmQ3TkNvSHZEMW1RdXpJRXJmZzRjMkdTaGtaQndfMFJPSUtDclh4Z3BOSS13d0RqbDRybVkzM0ZfS0o4eXlZRnp0dlRTLUJ6cWpsNWYyeVZZYm5DUm1YU0UydkpIMzRkZW1TRXNRZFE?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "Apple cites paused securities fraud case in bid to halt Epic proceedings",
                   "source": "9to5Mac",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLXYwd3BtX1NaVUcyR1h6VVhrVXAzRlRKTHRvWjBldFR5QmlpZmpGUFpzemJ0VHVXaG5xSmRRcmpyVVR6YzVic0llRTQyQ2o1a1pNa2xDVU14eS1zZ3NwamZJdHFVd2VmaFhoQmVENDFqaWtkMXNRN21ybkhCc0NUVlhqWlJnMnZNUU1xdWczSUpYNTNHQkJRNDdMX3B4TGU3bWVv?oc=5",
+                  "date": "Jul 18",
+                  "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX09zTzdFUTdudi1YUTUxM3lkaEdCT0tSbDRPSG5xR2dETFlVN3RlcWcxcV9LLV80MEZMdGdDVlhVMVZGTDRybkJ5R2hza1hpMjkyMlVQZGFNZE5YcldqOWx2ZGlZVTZHOFZGVldrOEZZaTZ6VGJHN0xaOS1kUjV6ckZtaF9qNUJpNVdZVWwySno3ZkVHV1FEekxKR2lXcDhXUnlEUlJ2OA?oc=5",
+                  "color": "#e11d48"
+                },
+                {
+                  "title": "Google, Epic Drop Bid To Alter Injunction In Antitrust Case",
+                  "source": "Law360",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU3Vfa1BpNTFMQUN6cVRKVzA2UU9oYTIzV2dUaVlHLUNCeWwyMXRBVlQ3ekxLUDJTUzJmN2RQQ2ppeXBHV1d0YmRwT09JNjY2NEVGVl9EZVpjUVYxWmY5UXdYeGRTN1V4SzJGRE00ZDlvMl9JQ05ocmJlVTJhZU1ENzVYcjlNMVRscDVseElZc2RBVy16UExxSkNFNTZsU0nSAVZBVV95cUxONkU1N2o0eVpRaElxY1BULVptbDREZWxoUWU5djhBTTllOHdNYTFKRnVfclZ3WndNRE9GaFlZQzd5MXU1dzd6aUdnZXM3QTBtRHZ2VmEzQQ?oc=5",
                   "color": "#e11d48"
                 }
               ],
-              "_sc": 1
+              "_sc": 6
             }
           ]
         }
@@ -957,28 +918,28 @@
           "count": 2,
           "companies": [
             {
-              "name": "Norm Ai",
+              "name": "DeepSeek",
               "connection": null,
               "links": [
                 {
-                  "title": "Norm Ai Raises $120 Million at a $1.2 Billion Valuation Led by Khosla Ventures to Deliver the Full-Stack Model for Legal AI",
-                  "source": "PR Newswire",
-                  "date": "Jul 7",
-                  "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObjJaRXR5czc0MDg0OVBZbVhOQl90a0VPUk44a0hsMjVFMG90WkdubnVvUlRUNjhLMklrZGQzZ0VPZ1dadzVOUXVEbW1pU01xaHN2NU5zVXFlRDRuTEgyeldtU25UbjN2UVRkTjBsZF96SG5YNk9paU1LMlNKZUNhZnRiYnZfejlHdGZ1Wk4zdVl4Y2gyeHEzMHhreUJDMUxxcmJIeEpaMEJEVGEyTzZCbGFRZC1RT0RIcVVSVzczLXZ1bEJtaWdOalF3N0xqNVh0aVhsaTdVV25tdUFjc2VDTUh1WUJPZWRkU0N4LUtOZDVqSW95Um5YLVhoaDdwN3drV0tDc1BLS0s?oc=5",
+                  "title": "DeepSeek Raises $7.4B, Vaulting China's AI Lab Into The Big Leagues",
+                  "source": "Yellow.com",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BbGtLejlKbjVNZ0loQjJVU1BldDZ0bHNmTjlDSXRLMjJKQ0xoWWdpYmY5cGlIenVVckZZWXU0dWwxZktfY1JVR193bGVybTF0SDlleHdWR2tNbVJmTVZvdkRzZw?oc=5",
                   "color": "#059669"
                 }
               ],
               "_sc": 1
             },
             {
-              "name": "SambaNova",
+              "name": "Emergent",
               "connection": null,
               "links": [
                 {
-                  "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+                  "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
                   "source": "TechCrunch",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUWU1VXZMQXZDYlNnMmljaVhQMGFQVW95T1NMTFBpOEcxTklJVzF0RFZUWnhsYU51ODlsUklQbl9nVVN0N2F5MFFfZzBjQWRmRGc0LXBkZ2E3M0lpQVItVEU4cXlBdzU1N0ZLOXBXMk9GR1Z5Mk0yb1RESlBSVmNGdlQ1U1piUEFrV2RYTzRUMUlWd1o1b2w3Ymxn?oc=5",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMFM3em1PUXJyR1FMMkxjcTM5MWV0Y014THEyZVNLMUNZZUdVbnd6dzh4SHlsV09tbkhwcmxyOVJqZlVBZzdJQnc5c2lwOUZwRG14aVhPcEFoVEN5Wm9nX19xNW1JMDUybWplVU8wZV9hV1FyUlJtRlBQSlN0dFVrSk82NUwyOElHOTZfUlRtTnBnbHlsazVNcWtHT0U2TVo3b0djZGlmaHVKLTE4VVhPakNxVlRYN0U?oc=5",
                   "color": "#059669"
                 }
               ],
@@ -988,45 +949,17 @@
         },
         {
           "name": "Defense & Aerospace",
-          "count": 3,
+          "count": 1,
           "companies": [
             {
-              "name": "Blue Origin",
+              "name": "Helsing",
               "connection": null,
               "links": [
                 {
-                  "title": "Blue Origin seeks to raise $10B from external investors in first VC-led funding round",
-                  "source": "SiliconANGLE",
-                  "date": "Jul 9",
-                  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWGdBUl92ZnhpNnN6RTktMWFqVkF2QWZPTldVcUhpTFFGeVE5a3ZQZlF5eHprR05WSHJ0S3BMQmJzQUNnS25Mdm04WGdXRGU3MzYxdlBrd3JYOG45YWU0dlhOR1Z6TFNwNTI5ay1uNDFyNmNBaE1uWDNsT2JTYTZ0XzBHdjBfSTJILU9SSzE3LVVmbWdBcWI0WmtVa0NicTc1ektVeDFNalR1dFlpX1ZF?oc=5",
-                  "color": "#059669"
-                }
-              ],
-              "_sc": 1
-            },
-            {
-              "name": "Kraken Robotics (autonomous ships)",
-              "connection": null,
-              "links": [
-                {
-                  "title": "Autonomous ship startup Kraken raises $175M at $1B valuation",
-                  "source": "SiliconANGLE",
-                  "date": "Jul 10",
-                  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUJfaldVSGEyN0xieG5EYWZQT0hkbEdkZXpjNHBQSmZRNGNnUkdjQWlaYjlwQ0lNd0JlUUFtdVA1NVJ5VXR5ZmRnNzRqMXVCaV9FY2ZENG8wY3daYVRxN0hma08xOUVLczRldUlXQWJMa1Y4TDRRa2RoSndGVmpINWlPeHdLUnh6T1F3SG1vT3VsMGdjN09R?oc=5",
-                  "color": "#059669"
-                }
-              ],
-              "_sc": 1
-            },
-            {
-              "name": "Venus Aerospace",
-              "connection": null,
-              "links": [
-                {
-                  "title": "Venus Aerospace raises $91 million to scale rocket engine technology",
-                  "source": "SpaceNews",
-                  "date": "Jul 8",
-                  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnFRUmVaQ3F5ZEkxM1JUbk1JVXBidlIweEJkbG8wazNOOEVGTVJ6cl9CSHJsTGk3a25VU3lvb2IxX2VwWGVmNmxJT2xDLUxhdUNDay1zTjI5QWcyVnlBaFlJQkgtZVR0RG02dWN3ZjdZTDItQTFVaDRQbzhkSVpVRmp1cU9ZVGxFcjhWNTJIZ1l0VG4z?oc=5",
+                  "title": "Helsing raises $1.8 billion in Europe’s biggest defense-startup round",
+                  "source": "Defense News",
+                  "date": "Jul 13",
+                  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPejcxR2NIaXdkVDltek1jUnREUGtydlNGd2kxX2hGQnpCbFptYU5XT0Z0OE5aNWhwQnFSSlNDZzdKdzlYaG9yVnpfaXBSbDIwMWRZdzc4UlZaUlFyVklRNzItNkRPd3JNcGNxa2NZeGJVYXN1UmZ6ekVodGREQUxOU3lXQXVMdEJvNUlJZTJUMkhVcy1vai1aYVhIVWVZYjBiUnBsUUVkUEllVkh6cUNGQkVEN1p3S21mcVlxYg?oc=5",
                   "color": "#059669"
                 }
               ],
@@ -1036,17 +969,65 @@
         },
         {
           "name": "Robotics & Hardware",
-          "count": 1,
+          "count": 3,
           "companies": [
             {
-              "name": "Robotera",
+              "name": "Humanoid",
               "connection": null,
               "links": [
                 {
-                  "title": "Chinese robotics startup Robotera raises $148m",
-                  "source": "Tech in Asia",
-                  "date": "Jul 6",
-                  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUxrLUpqemVzMllWQmRZSUlNTlVRYzNydUZGaDZaR2xsSmtVLWprUlA1d2JMX29tbWN3cWxSQ2NiakZiMU5HZXhhUUY3NEY1V2MtRjBxZjc4emo3QzBLWHdqRWgxbmVZX0t5SlRQT0t6UF90ZlVBLV95c0xnSDcxOHRmNA?oc=5",
+                  "title": "Exclusive: Humanoid, UK-Based Robot Maker, Becomes a Unicorn",
+                  "source": "The Information",
+                  "date": "Jul 16",
+                  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWZldjg1NDBQbG5yT2tpYmFleUJVdEVWYTNjcmRUSmlCYmZKSXgwajJiUEFnUWZoUzAxSTJBTGJNdU5pdGp2LW5zb3ZKekFPQ3RCcjZjem5aQm9nRkFFOVV2NUFhNGZhZ28tNElLX2pieTlOaURzSTl5Zmc3Z09Xb3J0Z1RIa005S0dyVW5BcFV1T2RrdVFNMW83bng?oc=5",
+                  "color": "#d97706"
+                }
+              ],
+              "_sc": 1
+            },
+            {
+              "name": "LimX Dynamics",
+              "connection": null,
+              "links": [
+                {
+                  "title": "Chinese robot startup LimX Dynamics raises $200m to improve autonomy",
+                  "source": "Nikkei Asia",
+                  "date": "Jul 14",
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQjV5T1diZ3RFNFBiX0RZdThkNnQtLTNXLXVZRi1NdzhnWlhoQXdwTEN2c293VEdHTHBRUWhHV2M0ejNTVlFyYWlJQW5sdTZmcmxldEtmMDhoUV9WRjB1OGNHYzNXZkRvSkJ2NF92aEIwM19UdWxfZkllS25VV0c2Y21JaU1tbVM1N29nc0hRNXRDem5pUXlQVzVpdWJ1NkZ0aVpCVDB3elpUNVEzd01yZg?oc=5",
+                  "color": "#059669"
+                }
+              ],
+              "_sc": 1
+            },
+            {
+              "name": "Walden Robotics",
+              "connection": null,
+              "links": [
+                {
+                  "title": "Toyota-Backed Startup Walden Robotics Comes Out of Stealth With $1.1 Billion Valuation",
+                  "source": "Bloomberg.com",
+                  "date": "Jul 15",
+                  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbXdWQmtzVmNRWi1EdHVLQ00wMWY0Y1pMVjBVek95RkpiUUF4WjlyRXR4c3lzLXpRbmFTSl9teWNWUktjUFMyTk5jcHNHbnBDWmVvR0hVVnJXUXd6cWpDbUhZeVRLWi1OMER4RFRYQjA4TTFRaEtDRjdLNC1vemhlY2pGdEx3YUc2X2stZldtMUVGQUlJanYySExVVW1wMF92LXVPS1YxQmhIYm94TVRIa2VHRjBfMEg5c29lcVU2UW1idw?oc=5",
+                  "color": "#d97706"
+                }
+              ],
+              "_sc": 1
+            }
+          ]
+        },
+        {
+          "name": "Energy & Nuclear",
+          "count": 1,
+          "companies": [
+            {
+              "name": "Valar Atomics",
+              "connection": null,
+              "links": [
+                {
+                  "title": "Nuclear Startup Valar Atomics in Talks for $6 Billion Valuation After Power Milestone",
+                  "source": "The Information",
+                  "date": "Jul 17",
+                  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS0RVcWtrQ09qWUhiSjBVME9GSEpjQzBwbkVpbU5mY2JhWFM2NDh5RWUydk1uYkhNV2xDbkdTTzR5aEJaYzJHWXd6ajNyU2dmR2haRmVkWXVlMmExa3pIOUx6ZFg3MHNsdlJkaldsMWVuYkxYN3Jpekp1ei01U2d0RFdOX3ZJNmRhNXI5eG9PTWdEOFRlT1ZzMnI0Q3lSMTFuZ1JxWVVyTU0wUWQ4Z1JRTQ?oc=5",
                   "color": "#059669"
                 }
               ],
@@ -1061,5 +1042,5 @@
     "key": null,
     "others": []
   },
-  "generated_at": "Jul 11, 2026 · 12:50 UTC"
+  "generated_at": "Jul 18, 2026 · 13:03 UTC"
 }
