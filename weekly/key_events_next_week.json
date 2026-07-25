@@ -1,32 +1,32 @@
 [
   {
     "when": "Next week",
-    "label": "PayPal-Stripe/Advent bid response",
-    "text": "Watch for PayPal's board to formally reject or counter the $53B offer and for Stripe/Advent to signal whether they will raise their bid, which will reprice fintech M&A expectations across private payment names.",
-    "key": true
+    "label": "Mistral funding close watch",
+    "text": "Watch for confirmation of Samsung's investment and Microsoft's multibillion-dollar European expansion deal firming up Mistral's reported €20bn valuation, a key read on European AI capital flows.",
+    "key": false
   },
   {
     "when": "Mid-week",
-    "label": "Databricks round finalization",
-    "text": "Watch for confirmation of terms on Databricks' $188B private round, as pricing details will set the benchmark for late-stage AI infrastructure valuations and signal how long its IPO delay persists.",
+    "label": "Stripe-OpenRouter deal news",
+    "text": "Expect further reporting on whether Stripe's exclusive talks to acquire OpenRouter advance to a definitive agreement, signaling fintech consolidation of AI-model infrastructure.",
     "key": false
   },
   {
     "when": "Next week",
-    "label": "Anthropic-Meta compute talks",
-    "text": "Watch for any leaks on structure or size of Anthropic's early compute deal with Meta, which would clarify how strained frontier-lab capacity is and read through to cloud/GPU supplier demand.",
+    "label": "AMD earnings read-through",
+    "text": "AMD commentary following its chips-and-investment deal with Anthropic will offer read-through on AI accelerator demand and the durability of Nvidia-alternative bets like Etched's $10.3B valuation.",
+    "key": true
+  },
+  {
+    "when": "Next week",
+    "label": "Kalshi regulatory fallout",
+    "text": "Watch for Kalshi's response to the Washington gambling-law block and movement on its pending perpetual precious-metal contract application, which will shape prediction-market regulatory risk.",
     "key": false
   },
   {
     "when": "Next week",
-    "label": "Apple v. OpenAI litigation filings",
-    "text": "Watch for initial court filings or OpenAI's public response in the trade-secret suit, as escalation could complicate OpenAI's already narrowing IPO window and its Apple integration.",
-    "key": false
-  },
-  {
-    "when": "Next week",
-    "label": "Flock Safety contract fallout",
-    "text": "Watch for additional police departments to follow LAPD in renegotiating or pausing Flock agreements, a spreading civil-liberties backlash that pressures the surveillance-tech startup's growth narrative.",
+    "label": "AI Kill Switch bill momentum",
+    "text": "Track Congressional traction on the 'AI Kill Switch' bill spurred by the OpenAI/Hugging Face incident and possible Treasury sanctions over Moonshot, both of which raise compliance overhang for AI labs.",
     "key": false
   }
 ]
